@@ -1,0 +1,204 @@
+[0288] 单词的唯一缩写
+=====================
+
+-  https://leetcode-cn.com/problems/unique-word-abbreviation
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+一个单词的缩写需要遵循 <起始字母><中间字母数><结尾字母> 这样的格式。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+以下是一些单词缩写的范例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>a) it                      --&gt; it    (没有缩写)
+
+        1
+        &darr;
+   b) d|o|g                   --&gt; d1g
+
+                 1    1  1
+        1---5----0----5--8
+        &darr;   &darr;    &darr;    &darr;  &darr;    
+   c) i|nternationalizatio|n  --&gt; i18n
+
+                 1
+        1---5----0
+   &nbsp;    &darr;   &darr;    &darr;
+   d) l|ocalizatio|n          --&gt; l10n
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+假设你有一个字典和一个单词，请你判断该单词的缩写在这本字典中是否唯一。若单词的缩写在字典中没有任何 其他
+单词与其缩写相同，则被称为单词的唯一缩写。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>给定 dictionary = [ &quot;deer&quot;, &quot;door&quot;, &quot;cake&quot;, &quot;card&quot; ]
+
+   isUnique(&quot;dear&quot;) -&gt; <code>false</code>
+   isUnique(&quot;cart&quot;) -&gt; <code>true</code>
+   isUnique(&quot;cane&quot;) -&gt; <code>false</code>
+   isUnique(&quot;make&quot;) -&gt; <code>true</code>
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+设计
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class ValidWordAbbr {
+    public:
+        ValidWordAbbr(vector<string>& dictionary) {
+
+        }
+        
+        bool isUnique(string word) {
+
+        }
+    };
+
+    /**
+     * Your ValidWordAbbr object will be instantiated and called as such:
+     * ValidWordAbbr* obj = new ValidWordAbbr(dictionary);
+     * bool param_1 = obj->isUnique(word);
+     */
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

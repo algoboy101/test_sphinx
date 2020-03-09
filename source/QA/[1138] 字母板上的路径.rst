@@ -1,0 +1,256 @@
+[1138] 字母板上的路径
+=====================
+
+-  https://leetcode-cn.com/problems/alphabet-board-path
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们从一块字母板上的位置 (0, 0) 出发，该坐标对应的字符为 board[0][0]。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+在本题里，字母板为board = ["abcde", "fghij", "klmno", "pqrst", "uvwxy",
+"z"].
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们可以按下面的指令规则行动：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>如果方格存在，<code>&#39;U&#39;</code>&nbsp;意味着将我们的位置上移一行；</li>
+    <li>如果方格存在，<code>&#39;D&#39;</code>&nbsp;意味着将我们的位置下移一行；</li>
+    <li>如果方格存在，<code>&#39;L&#39;</code>&nbsp;意味着将我们的位置左移一列；</li>
+    <li>如果方格存在，<code>&#39;R&#39;</code>&nbsp;意味着将我们的位置右移一列；</li>
+    <li><code>&#39;!&#39;</code>&nbsp;会把在我们当前位置 <code>(r, c)</code> 的字符&nbsp;<code>board[r][c]</code>&nbsp;添加到答案中。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+返回指令序列，用最小的行动次数让答案和目标 target 相同。你可以返回任何达成目标的路径。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>target = &quot;leet&quot;
+   <strong>输出：</strong>&quot;DDR!UURRR!!DDD!&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>target = &quot;code&quot;
+   <strong>输出：</strong>&quot;RR!DDRR!UUL!R!&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= target.length &lt;= 100</code></li>
+    <li><code>target</code>&nbsp;仅含有小写英文字母。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string alphabetBoardPath(string target) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

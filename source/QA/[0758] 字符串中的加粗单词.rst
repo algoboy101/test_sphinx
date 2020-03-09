@@ -1,0 +1,191 @@
+[0758] 字符串中的加粗单词
+=========================
+
+-  https://leetcode-cn.com/problems/bold-words-in-string
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个关键词集合 words 和一个字符串 S，将所有 S
+中出现的关键词加粗。所有在标签 <b> 和 </b> 中的字母都会加粗。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回的字符串需要使用尽可能少的标签，当然标签应形成有效的组合。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如，给定 words = ["ab", "bc"] 和 S =
+"aabcd"，需要返回 "a<b>abc</b>d"。注意返回 "a<b>a<b>b</b>c</b>d" 会使用更多的标签，因此是错误的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>words</code> 长度的范围为&nbsp;<code>[0, 50]</code>。</li>
+    <li><code>words[i]</code> 长度的范围为&nbsp;<code>[1, 10]</code>。</li>
+    <li><code>S</code> 长度的范围为&nbsp;<code>[0, 500]</code>。</li>
+    <li>所有&nbsp;<code>words[i]</code>&nbsp;和&nbsp;<code>S</code>&nbsp;中的字符都为小写字母。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string boldWords(vector<string>& words, string S) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

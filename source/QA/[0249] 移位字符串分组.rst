@@ -1,0 +1,173 @@
+[0249] 移位字符串分组
+=====================
+
+-  https://leetcode-cn.com/problems/group-shifted-strings
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个字符串，对该字符串可以进行 “移位”
+的操作，也就是将字符串中每个字母都变为其在字母表中后续的字母，比如："abc"
+-> "bcd"。这样，我们可以持续进行 “移位” 操作，从而生成如下移位序列：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>&quot;abc&quot; -&gt; &quot;bcd&quot; -&gt; ... -&gt; &quot;xyz&quot;</pre>
+
+.. raw:: html
+
+   <p>
+
+给定一个包含仅小写字母字符串的列表，将该列表中所有满足 “移位”
+操作规律的组合进行分组并返回。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><code>[&quot;abc&quot;, &quot;bcd&quot;, &quot;acef&quot;, &quot;xyz&quot;, &quot;az&quot;, &quot;ba&quot;, &quot;a&quot;, &quot;z&quot;]</code>
+   <strong>输出:</strong> 
+   [
+     [&quot;abc&quot;,&quot;bcd&quot;,&quot;xyz&quot;],
+     [&quot;az&quot;,&quot;ba&quot;],
+     [&quot;acef&quot;],
+     [&quot;a&quot;,&quot;z&quot;]
+   ]
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<vector<string>> groupStrings(vector<string>& strings) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

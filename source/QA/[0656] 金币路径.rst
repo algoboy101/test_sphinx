@@ -1,0 +1,256 @@
+[0656] 金币路径
+===============
+
+-  https://leetcode-cn.com/problems/coin-path
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个数组 A（下标从 1 开始）包含 N 个整数：A1，A2，……，AN 和一个整数
+B。你可以从数组 A 中的任何一个位置（下标为
+i）跳到下标 i+1，i+2，……，i+B 的任意一个可以跳到的位置上。如果你在下标为
+i 的位置上，你需要支付 Ai 个金币。如果 Ai 是 -1，意味着下标为 i
+的位置是不可以跳到的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在，你希望花费最少的金币从数组 A 的 1 位置跳到 N
+位置，你需要输出花费最少的路径，依次输出所有经过的下标（从 1 到 N）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果有多种花费最少的方案，输出字典顺序最小的路径。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果无法到达 N 位置，请返回一个空数组。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+样例 1 :
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> [1,2,4,-1,2], 2
+   <strong>输出:</strong> [1,3,5]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+样例 2 :
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> [1,2,4,-1,2], 1
+   <strong>输出:</strong> []
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注释 :
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>路径 Pa<sub>1</sub>，Pa<sub>2</sub>，&hellip;&hellip;，Pa<sub>n&nbsp;</sub>是字典序小于 Pb<sub>1</sub>，Pb<sub>2</sub>，&hellip;&hellip;，Pb<sub>m&nbsp;</sub>的，当且仅当第一个 Pa<sub>i</sub> 和 Pb<sub>i</sub> 不同的 <code>i</code> 满足 Pa<sub>i</sub> &lt; Pb<sub>i</sub>，如果不存在这样的 <code>i</code> 那么满足 <code>n</code> &lt; <code>m</code>。</li>
+    <li>A<sub>1</sub> &gt;= 0。&nbsp;A<sub>2</sub>, ..., A<sub>N</sub>&nbsp;（如果存在）&nbsp;的范围是 [-1, 100]。</li>
+    <li>A 数组的长度范围 [1, 1000].</li>
+    <li>B 的范围&nbsp;[1, 100].</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> cheapestJump(vector<int>& A, int B) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,178 @@
+[0360] 有序转化数组
+===================
+
+-  https://leetcode-cn.com/problems/sort-transformed-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你一个已经 排好序 的整数数组 nums 和整数 a、b、c。对于数组中的每一个数
+x，计算函数值 f(x) = ax2 + bx + c，请将函数值产生的数组返回。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+要注意，返回的这个数组必须按照
+升序排列，并且我们所期望的解法时间复杂度为 O(n)。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>nums = [-4,-2,2,4], a = 1, b = 3, c = 5
+   <strong>输出: </strong>[3,9,15,33]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>nums = [-4,-2,2,4], a = -1, b = 3, c = 5
+   <strong>输出: </strong>[-23,-5,1,7]
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+双指针
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,297 @@
+[1203] 项目管理
+===============
+
+-  https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+公司共有 n 个项目和
+ m 个小组，每个项目要不没有归属，要不就由其中的一个小组负责。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们用 group[i] 代表第 i 个项目所属的小组，如果这个项目目前无人接手，那么 group[i]
+就等于 -1。（项目和小组都是从零开始编号的）
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+请你帮忙按要求安排这些项目的进度，并返回排序后的项目列表：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>同一小组的项目，排序后在列表中彼此相邻。</li>
+    <li>项目之间存在一定的依赖关系，我们用一个列表 <code>beforeItems</code>&nbsp;来表示，其中&nbsp;<code>beforeItems[i]</code>&nbsp;表示在进行第&nbsp;<code>i</code>&nbsp;个项目前（位于第 <code>i</code>&nbsp;个项目左侧）应该完成的所有项目。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+结果要求：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果存在多个解决方案，只需要返回其中任意一个即可。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果没有合适的解决方案，就请返回一个 空列表。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]
+   <strong>输出：</strong>[6,3,4,1,5,2,0,7]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3],[],[4],[]]
+   <strong>输出：</strong>[]
+   <strong>解释：</strong>与示例 1 大致相同，但是在排序后的列表中，4 必须放在 6 的前面。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= m &lt;= n &lt;= 3*10^4</code></li>
+    <li><code>group.length == beforeItems.length == n</code></li>
+    <li><code>-1 &lt;= group[i] &lt;= m-1</code></li>
+    <li><code>0 &lt;= beforeItems[i].length &lt;= n-1</code></li>
+    <li><code>0 &lt;= beforeItems[i][j] &lt;= n-1</code></li>
+    <li><code>i != beforeItems[i][j]</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+拓扑排序
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> sortItems(int n, int m, vector<int>& group, vector<vector<int>>& beforeItems) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

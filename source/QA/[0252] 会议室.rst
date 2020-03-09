@@ -1,0 +1,158 @@
+[0252] 会议室
+=============
+
+-  https://leetcode-cn.com/problems/meeting-rooms
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个会议时间安排的数组，每个会议时间都会包括开始和结束的时间
+[[s1,e1],[s2,e2],...] (si <
+ei)，请你判断一个人是否能够参加这里面的全部会议。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <code>[[0,30],[5,10],[15,20]]</code>
+   <strong>输出:</strong> false
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> [[7,10],[2,4]]
+   <strong>输出:</strong> true
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+排序
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool canAttendMeetings(vector<vector<int>>& intervals) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

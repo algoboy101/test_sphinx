@@ -1,0 +1,184 @@
+[0394] 字符串解码
+=================
+
+-  https://leetcode-cn.com/problems/decode-string
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个经过编码的字符串，返回它解码后的字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+编码规则为: k[encoded\_string]，表示其中方括号内部的 encoded\_string
+正好重复 k 次。注意 k 保证为正整数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以认为输入字符串总是有效的；输入字符串中没有额外的空格，且输入的方括号总是符合格式要求的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+此外，你可以认为原始数据不包含数字，所有的数字只表示重复的次数 k
+，例如不会出现像 3a 或 2[4] 的输入。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   s = &quot;3[a]2[bc]&quot;, 返回 &quot;aaabcbc&quot;.
+   s = &quot;3[a2[c]]&quot;, 返回 &quot;accaccacc&quot;.
+   s = &quot;2[abc]3[cd]ef&quot;, 返回 &quot;abcabccdcdcdef&quot;.
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string decodeString(string s) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

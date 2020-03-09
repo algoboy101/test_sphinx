@@ -1,0 +1,245 @@
+[1074] 元素和为目标值的子矩阵数量
+=================================
+
+-  https://leetcode-cn.com/problems/number-of-submatrices-that-sum-to-target
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给出矩阵 matrix 和目标值 target，返回元素总和等于目标值的非空子矩阵的数量。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+子矩阵 x1, y1, x2, y2 是满足 x1 <= x <= x2 且 y1 <= y <=
+y2 的所有单元 matrix[x][y] 的集合。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果 (x1, y1, x2, y2) 和 (x1', y1', x2',
+y2') 两个子矩阵中部分坐标不同（如：x1 != x1'），那么这两个子矩阵也不同。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>matrix = [[0,1,0],[1,1,1],[0,1,0]], target = 0
+   <strong>输出：</strong>4
+   <strong>解释：</strong>四个只含 0 的 1x1 子矩阵。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>matrix = [[1,-1],[-1,1]], target = 0
+   <strong>输出：</strong>5
+   <strong>解释：</strong>两个 1x2 子矩阵，加上两个 2x1 子矩阵，再加上一个 2x2 子矩阵。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= matrix.length &lt;= 300</code></li>
+    <li><code>1 &lt;= matrix[0].length &lt;= 300</code></li>
+    <li><code>-1000 &lt;= matrix[i] &lt;= 1000</code></li>
+    <li><code>-10^8 &lt;= target &lt;= 10^8</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+Sliding Window
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

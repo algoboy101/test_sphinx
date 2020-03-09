@@ -1,0 +1,197 @@
+[0487] 最大连续1的个数 II
+=========================
+
+-  https://leetcode-cn.com/problems/max-consecutive-ones-ii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个二进制数组，你可以最多将 1 个 0 翻转为 1，找出其中最大连续 1
+的个数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[1,0,1,1,0]
+   <strong>输出：</strong>4
+   <strong>解释：</strong>翻转第一个 0 可以得到最长的连续 1。
+   &nbsp;    当翻转以后，最大连续 1 的个数为 4。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>输入数组只包含&nbsp;<code>0</code> 和&nbsp;<code>1</code>.</li>
+    <li>输入数组的长度为正整数，且不超过 10,000</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+进阶： 如果输入的数字是作为 无限流
+逐个输入如何处理？换句话说，内存不能存储下所有从流中输入的数字。您可以有效地解决吗？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+双指针
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findMaxConsecutiveOnes(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

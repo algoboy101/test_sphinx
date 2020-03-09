@@ -1,0 +1,233 @@
+[1272] 删除区间
+===============
+
+-  https://leetcode-cn.com/problems/remove-interval
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你一个 有序的 不相交区间列表 intervals 和一个要删除的区间
+toBeRemoved， intervals 中的每一个区间 intervals[i] = [a,
+b] 都表示满足 a <= x < b 的所有实数  x 的集合。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们将 intervals 中任意区间与 toBeRemoved 有交集的部分都删除。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回删除所有交集区间后， intervals 剩余部分的 有序 列表。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入：</strong>intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
+   <strong>输出：</strong>[[0,1],[6,7]]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入：</strong>intervals = [[0,5]], toBeRemoved = [2,3]
+   <strong>输出：</strong>[[0,2],[3,5]]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= intervals.length &lt;= 10^4</code></li>
+    <li><code>-10^9 &lt;= intervals[i][0] &lt; intervals[i][1] &lt;= 10^9</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+Line Sweep
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

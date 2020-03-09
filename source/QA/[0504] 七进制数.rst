@@ -1,0 +1,132 @@
+[0504] 七进制数
+===============
+
+-  https://leetcode-cn.com/problems/base-7
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个整数，将其转化为7进制，并以字符串形式输出。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> 100
+   <strong>输出:</strong> &quot;202&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> -7
+   <strong>输出:</strong> &quot;-10&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意: 输入范围是 [-1e7, 1e7] 。
+
+.. raw:: html
+
+   </p>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string convertToBase7(int num) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,300 @@
+[0887] 鸡蛋掉落
+===============
+
+-  https://leetcode-cn.com/problems/super-egg-drop
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+你将获得 K 个鸡蛋，并可以使用一栋从 1 到 N  共有 N 层楼的建筑。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每个蛋的功能都是一样的，如果一个蛋碎了，你就不能再把它掉下去。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你知道存在楼层 F ，满足 0 <= F <= N 任何从高于
+F 的楼层落下的鸡蛋都会碎，从 F 楼层或比它低的楼层落下的鸡蛋都不会破。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每次移动，你可以取一个鸡蛋（如果你有完整的鸡蛋）并把它从任一楼层 X 扔下（满足 1
+<= X <= N）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你的目标是确切地知道 F 的值是多少。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+无论 F 的初始值如何，你确定 F 的值的最小移动次数是多少？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>K = 1, N = 2
+   <strong>输出：</strong>2
+   <strong>解释：</strong>
+   鸡蛋从 1 楼掉落。如果它碎了，我们肯定知道 F = 0 。
+   否则，鸡蛋从 2 楼掉落。如果它碎了，我们肯定知道 F = 1 。
+   如果它没碎，那么我们肯定知道 F = 2 。
+   因此，在最坏的情况下我们需要移动 2 次以确定 F 是多少。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>K = 2, N = 6
+   <strong>输出：</strong>3
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>K = 3, N = 14
+   <strong>输出：</strong>4
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= K &lt;= 100</code></li>
+    <li><code>1 &lt;= N &lt;= 10000</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int superEggDrop(int K, int N) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

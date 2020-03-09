@@ -1,0 +1,157 @@
+[0096] 不同的二叉搜索树
+=======================
+
+-  https://leetcode-cn.com/problems/unique-binary-search-trees
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> 3
+   <strong>输出:</strong> 5
+   <strong>解释:
+   </strong>给定 <em>n</em> = 3, 一共有 5 种不同结构的二叉搜索树:
+
+      1         3     3      2      1
+       \       /     /      / \      \
+        3     2     1      1   3      2
+       /     /       \                 \
+      2     1         2                 3</pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int numTrees(int n) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

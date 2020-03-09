@@ -1,0 +1,247 @@
+[0427] 建立四叉树
+=================
+
+-  https://leetcode-cn.com/problems/construct-quad-tree
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们想要使用一棵四叉树来储存一个 N x N
+的布尔值网络。网络中每一格的值只会是真或假。树的根结点代表整个网络。对于每个结点,
+它将被分等成四个孩子结点直到这个区域内的值都是相同的.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每个结点还有另外两个布尔变量: isLeaf 和 val。isLeaf
+当这个节点是一个叶子结点时为真。val 变量储存叶子结点所代表的区域的值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你的任务是使用一个四叉树表示给定的网络。下面的例子将有助于你理解这个问题：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给定下面这个8 x 8 网络，我们将这样建立一个对应的四叉树：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+由上文的定义，它能被这样分割：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对应的四叉树应该像下面这样，每个结点由一对 (isLeaf, val) 所代表.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对于非叶子结点，val 可以是任意的，所以使用 \* 代替。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>N</code>&nbsp;将小于&nbsp;<code>1000</code>&nbsp;且确保是 2 的整次幂。</li>
+    <li>如果你想了解更多关于四叉树的知识，你可以参考这个&nbsp;<a href="https://en.wikipedia.org/wiki/Quadtree">wiki</a>&nbsp;页面。</li>
+
+.. raw:: html
+
+   </ol>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /*
+    // Definition for a QuadTree node.
+    class Node {
+    public:
+        bool val;
+        bool isLeaf;
+        Node* topLeft;
+        Node* topRight;
+        Node* bottomLeft;
+        Node* bottomRight;
+        
+        Node() {
+            val = false;
+            isLeaf = false;
+            topLeft = NULL;
+            topRight = NULL;
+            bottomLeft = NULL;
+            bottomRight = NULL;
+        }
+        
+        Node(bool _val, bool _isLeaf) {
+            val = _val;
+            isLeaf = _isLeaf;
+            topLeft = NULL;
+            topRight = NULL;
+            bottomLeft = NULL;
+            bottomRight = NULL;
+        }
+        
+        Node(bool _val, bool _isLeaf, Node* _topLeft, Node* _topRight, Node* _bottomLeft, Node* _bottomRight) {
+            val = _val;
+            isLeaf = _isLeaf;
+            topLeft = _topLeft;
+            topRight = _topRight;
+            bottomLeft = _bottomLeft;
+            bottomRight = _bottomRight;
+        }
+    };
+    */
+    class Solution {
+    public:
+        Node* construct(vector<vector<int>>& grid) {
+            
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

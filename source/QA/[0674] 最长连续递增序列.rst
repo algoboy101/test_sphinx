@@ -1,0 +1,171 @@
+[0674] 最长连续递增序列
+=======================
+
+-  https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个未经排序的整数数组，找到最长且连续的的递增序列。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> [1,3,5,4,7]
+   <strong>输出:</strong> 3
+   <strong>解释:</strong> 最长连续递增序列是 [1,3,5], 长度为3。
+   尽管 [1,3,5,7] 也是升序的子序列, 但它不是连续的，因为5和7在原数组里被4隔开。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> [2,2,2,2,2]
+   <strong>输出:</strong> 1
+   <strong>解释:</strong> 最长连续递增序列是 [2], 长度为1。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意：数组长度不会超过10000。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findLengthOfLCIS(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

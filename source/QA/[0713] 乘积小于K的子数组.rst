@@ -1,0 +1,187 @@
+[0713] 乘积小于K的子数组
+========================
+
+-  https://leetcode-cn.com/problems/subarray-product-less-than-k
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个正整数数组 nums。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+找出该数组内乘积小于 k 的连续的子数组的个数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> nums = [10,5,2,6], k = 100
+   <strong>输出:</strong> 8
+   <strong>解释:</strong> 8个乘积小于100的子数组分别为: [10], [5], [2], [6], [10,5], [5,2], [2,6], [5,2,6]。
+   需要注意的是 [10,5,2] 并不是乘积小于100的子数组。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>0 &lt; nums.length &lt;= 50000</code></li>
+    <li><code>0 &lt; nums[i] &lt; 1000</code></li>
+    <li><code>0 &lt;= k &lt; 10^6</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+双指针
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int numSubarrayProductLessThanK(vector<int>& nums, int k) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

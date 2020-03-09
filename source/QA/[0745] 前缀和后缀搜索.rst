@@ -1,0 +1,191 @@
+[0745] 前缀和后缀搜索
+=====================
+
+-  https://leetcode-cn.com/problems/prefix-and-suffix-search
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定多个 words，words[i] 的权重为 i 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+设计一个类 WordFilter 实现函数WordFilter.f(String prefix, String
+suffix)。这个函数将返回具有前缀 prefix 和后缀suffix 的词的最大权重。如果没有这样的词，返回
+-1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例子:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   WordFilter([&quot;apple&quot;])
+   WordFilter.f(&quot;a&quot;, &quot;e&quot;) // 返回 0
+   WordFilter.f(&quot;b&quot;, &quot;&quot;) // 返回 -1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>words</code>的长度在<code>[1, 15000]</code>之间。</li>
+    <li>对于每个测试用例，最多会有<code>words.length</code>次对<code>WordFilter.f</code>的调用。</li>
+    <li><code>words[i]</code>的长度在<code>[1, 10]</code>之间。</li>
+    <li><code>prefix, suffix</code>的长度在<code>[0, 10]</code>之前。</li>
+    <li><code>words[i]</code>和<code>prefix, suffix</code>只包含小写字母。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字典树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class WordFilter {
+    public:
+        WordFilter(vector<string>& words) {
+
+        }
+        
+        int f(string prefix, string suffix) {
+
+        }
+    };
+
+    /**
+     * Your WordFilter object will be instantiated and called as such:
+     * WordFilter* obj = new WordFilter(words);
+     * int param_1 = obj->f(prefix,suffix);
+     */
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

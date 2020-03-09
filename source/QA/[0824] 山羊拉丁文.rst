@@ -1,0 +1,231 @@
+[0824] 山羊拉丁文
+=================
+
+-  https://leetcode-cn.com/problems/goat-latin
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个由空格分割单词的句子 S。每个单词只包含大写或小写字母。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们要将句子转换为 “Goat Latin”（一种类似于 猪拉丁文 - Pig Latin
+的虚构语言）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+山羊拉丁文的规则如下：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>如果单词以元音开头（a, e, i, o, u），在单词后添加<code>&quot;ma&quot;</code>。<br />
+    例如，单词<code>&quot;apple&quot;</code>变为<code>&quot;applema&quot;</code>。</li>
+    <br />
+    <li>如果单词以辅音字母开头（即非元音字母），移除第一个字符并将它放到末尾，之后再添加<code>&quot;ma&quot;</code>。<br />
+    例如，单词<code>&quot;goat&quot;</code>变为<code>&quot;oatgma&quot;</code>。</li>
+    <br />
+    <li>根据单词在句子中的索引，在单词最后添加与索引相同数量的字母<code>&#39;a&#39;</code>，索引从1开始。<br />
+    例如，在第一个单词后添加<code>&quot;a&quot;</code>，在第二个单词后添加<code>&quot;aa&quot;</code>，以此类推。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+返回将 S 转换为山羊拉丁文后的句子。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: </strong>&quot;I speak Goat Latin&quot;
+   <strong>输出: </strong>&quot;Imaa peaksmaaa oatGmaaaa atinLmaaaaa&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: </strong>&quot;The quick brown fox jumped over the lazy dog&quot;
+   <strong>输出: </strong>&quot;heTmaa uickqmaaa rownbmaaaa oxfmaaaaa umpedjmaaaaaa overmaaaaaaa hetmaaaaaaaa azylmaaaaaaaaa ogdmaaaaaaaaaa&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>S</code>&nbsp;中仅包含大小写字母和空格。单词间有且仅有一个空格。</li>
+    <li><code>1 &lt;= S.length &lt;= 150</code>。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string toGoatLatin(string S) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

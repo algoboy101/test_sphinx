@@ -1,0 +1,284 @@
+[0425] 单词方块
+===============
+
+-  https://leetcode-cn.com/problems/word-squares
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个单词集合 （没有重复），找出其中所有的 单词方块 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+一个单词序列形成了一个有效的单词方块的意思是指从第 k 行和第 k 列 (0 ≤ k
+< max(行数, 列数)) 来看都是相同的字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如，单词序列 ["ball","area","lead","lady"] 形成了一个单词方块，因为每个单词从水平方向看和从竖直方向看都是相同的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>b a l l
+   a r e a
+   l e a d
+   l a d y
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>单词个数大于等于 1 且不超过&nbsp;500。</li>
+    <li>所有的单词长度都相同。</li>
+    <li>单词长度大于等于 1 且不超过&nbsp;5。</li>
+    <li>每个单词只包含小写英文字母&nbsp;<code>a-z</code>。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>
+   [&quot;area&quot;,&quot;lead&quot;,&quot;wall&quot;,&quot;lady&quot;,&quot;ball&quot;]
+
+   <strong>输出：</strong>
+   [
+     [ &quot;wall&quot;,
+       &quot;area&quot;,
+       &quot;lead&quot;,
+       &quot;lady&quot;
+     ],
+     [ &quot;ball&quot;,
+       &quot;area&quot;,
+       &quot;lead&quot;,
+       &quot;lady&quot;
+     ]
+   ]
+
+   <strong>解释：</strong>
+   输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>
+   [&quot;abat&quot;,&quot;baba&quot;,&quot;atan&quot;,&quot;atal&quot;]
+
+   <strong>输出：</strong>
+   [
+     [ &quot;baba&quot;,
+       &quot;abat&quot;,
+       &quot;baba&quot;,
+       &quot;atan&quot;
+     ],
+     [ &quot;baba&quot;,
+       &quot;abat&quot;,
+       &quot;baba&quot;,
+       &quot;atal&quot;
+     ]
+   ]
+
+   <strong>解释：</strong>
+   输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字典树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+回溯算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<vector<string>> wordSquares(vector<string>& words) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

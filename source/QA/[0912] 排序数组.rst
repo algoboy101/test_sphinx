@@ -1,0 +1,173 @@
+[0912] 排序数组
+===============
+
+-  https://leetcode-cn.com/problems/sort-an-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个整数数组 nums，将该数组升序排列。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入：</strong>[5,2,3,1]
+   <strong>输出：</strong>[1,2,3,5]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入：</strong>[5,1,1,2,0,0]
+   <strong>输出：</strong>[0,0,1,1,2,5]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= A.length &lt;= 10000</code></li>
+    <li><code>-50000 &lt;= A[i] &lt;= 50000</code></li>
+
+.. raw:: html
+
+   </ol>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> sortArray(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

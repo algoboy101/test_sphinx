@@ -1,0 +1,280 @@
+[0944] 删列造序
+===============
+
+-  https://leetcode-cn.com/problems/delete-columns-to-make-sorted
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定由 N 个小写字母字符串组成的数组 A，其中每个字符串长度相等。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+删除 操作的定义是：选出一组要删掉的列，删去 A
+中对应列中的所有字符，形式上，第 n 列为 [A[0][n], A[1][n], ...,
+A[A.length-1][n]]）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+比如，有 A = ["abcdef", "uvwxyz"]，
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+要删掉的列为 {0, 2, 3}，删除后 A 为["bef", "vyz"]，
+A 的列分别为["b","v"], ["e","y"], ["f","z"]。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你需要选出一组要删掉的列 D，对 A 执行删除操作，使 A 中剩余的每一列都是
+非降序 排列的，然后请你返回 D.length 的最小可能值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[&quot;cba&quot;, &quot;daf&quot;, &quot;ghi&quot;]
+   <strong>输出：</strong>1
+   <strong>解释：</strong>
+   当选择 D = {1}，删除后 A 的列为：[&quot;c&quot;,&quot;d&quot;,&quot;g&quot;] 和 [&quot;a&quot;,&quot;f&quot;,&quot;i&quot;]，均为非降序排列。
+   若选择 D = {}，那么 A 的列 [&quot;b&quot;,&quot;a&quot;,&quot;h&quot;] 就不是非降序排列了。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[&quot;a&quot;, &quot;b&quot;]
+   <strong>输出：</strong>0
+   <strong>解释：</strong>D = {}
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[&quot;zyx&quot;, &quot;wvu&quot;, &quot;tsr&quot;]
+   <strong>输出：</strong>3
+   <strong>解释：</strong>D = {0, 1, 2}
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= A.length &lt;= 100</code></li>
+    <li><code>1 &lt;= A[i].length &lt;= 1000</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+贪心算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minDeletionSize(vector<string>& A) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

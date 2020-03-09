@@ -1,0 +1,214 @@
+[1134] 阿姆斯特朗数
+===================
+
+-  https://leetcode-cn.com/problems/armstrong-number
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+假设存在一个 k 位数 N，其每一位上的数字的 k
+次幂的总和也是 N，那么这个数是阿姆斯特朗数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你一个正整数 N，让你来判定他是否是阿姆斯特朗数，是则返回
+true，不是则返回 false。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>153
+   <strong>输出：</strong>true
+   <strong>示例： </strong>
+   153 是一个 3 位数，且 153 = 1^3 + 5^3 + 3^3。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>123
+   <strong>输出：</strong>false
+   <strong>解释： </strong>
+   123 是一个 3 位数，且 123 != 1^3 + 2^3 + 3^3 = 36。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= N &lt;= 10^8</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool isArmstrong(int N) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

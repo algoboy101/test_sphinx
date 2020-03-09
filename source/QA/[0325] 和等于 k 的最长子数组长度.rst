@@ -1,0 +1,178 @@
+[0325] 和等于 k 的最长子数组长度
+================================
+
+-  https://leetcode-cn.com/problems/maximum-size-subarray-sum-equals-k
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个数组 nums 和一个目标值 k，找到和等于 k
+的最长子数组长度。如果不存在任意一个符合要求的子数组，则返回 0。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意:  nums 数组的总和是一定在 32 位有符号整数范围之内的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><em>nums</em> = <code>[1, -1, 5, -2, 3]</code>, <em>k</em> = <code>3</code>
+   <strong>输出: </strong>4 
+   <strong>解释: </strong>子数组 <code>[1, -1, 5, -2]</code> 和等于 3，且长度最长。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><em>nums</em> = <code>[-2, -1, 2, 1]</code>, <em>k</em> = <code>1</code>
+   <strong>输出: </strong>2 <strong>
+   解释: </strong>子数组<code> [-1, 2]</code> 和等于 1，且长度最长。</pre>
+
+.. raw:: html
+
+   <p>
+
+进阶: 你能使时间复杂度在 O(n) 内完成此题吗?
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int maxSubArrayLen(vector<int>& nums, int k) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

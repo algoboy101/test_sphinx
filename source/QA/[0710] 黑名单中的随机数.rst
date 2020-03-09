@@ -1,0 +1,296 @@
+[0710] 黑名单中的随机数
+=======================
+
+-  https://leetcode-cn.com/problems/random-pick-with-blacklist
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个包含 [0，n ) 中独特的整数的黑名单 B，写一个函数从 [ 0，n )
+中返回一个不在 B 中的随机整数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对它进行优化使其尽量少调用系统方法 Math.random() 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= N &lt;= 1000000000</code></li>
+    <li><code>0 &lt;= B.length &lt; min(100000, N)</code></li>
+    <li><code>[0, N)</code>&nbsp;不包含&nbsp;N，详细参见&nbsp;<a href="https://en.wikipedia.org/wiki/Interval_(mathematics)" target="_blank">interval notation</a>&nbsp;。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: 
+   </strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+   [[1,[]],[],[],[]]
+   <strong>输出: </strong>[null,0,0,0]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: 
+   </strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+   [[2,[]],[],[],[]]
+   <strong>输出: </strong>[null,1,1,1]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: 
+   </strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+   [[3,[1]],[],[],[]]
+   <strong>Output: </strong>[null,0,0,2]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 4:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入: 
+   </strong>[&quot;Solution&quot;,&quot;pick&quot;,&quot;pick&quot;,&quot;pick&quot;]
+   [[4,[2]],[],[],[]]
+   <strong>输出: </strong>[null,1,3,1]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+输入语法说明：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+输入是两个列表：调用成员函数名和调用的参数。Solution的构造函数有两个参数，N 和黑名单 B。pick 没有参数，输入参数是一个列表，即使参数为空，也会输入一个
+[] 空列表。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+排序
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+Random
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        Solution(int N, vector<int>& blacklist) {
+
+        }
+        
+        int pick() {
+
+        }
+    };
+
+    /**
+     * Your Solution object will be instantiated and called as such:
+     * Solution* obj = new Solution(N, blacklist);
+     * int param_1 = obj->pick();
+     */
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

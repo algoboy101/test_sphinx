@@ -1,0 +1,265 @@
+[0833] 字符串中的查找与替换
+===========================
+
+-  https://leetcode-cn.com/problems/find-and-replace-in-string
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+对于某些字符串
+S，我们将执行一些替换操作，用新的字母组替换原有的字母组（不一定大小相同）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每个替换操作具有 3 个参数：起始索引 i，源字 x 和目标字 y。规则是如果 x
+从原始字符串 S 中的位置 i 开始，那么我们将用 y 替换出现的
+x。如果没有，我们什么都不做。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+举个例子，如果我们有 S = “abcd” 并且我们有一些替换操作 i = 2，x =
+“cd”，y = “ffff”，那么因为 “cd” 从原始字符串 S 中的位置 2
+开始，我们将用 “ffff” 替换它。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+再来看 S = “abcd” 上的另一个例子，如果我们有替换操作 i = 0，x = “ab”，y
+= “eee”，以及另一个替换操作 i = 2，x = “ec”，y =
+“ffff”，那么第二个操作将不执行任何操作，因为原始字符串中 S[2] = 'c'，与
+x[0] = 'e' 不匹配。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+所有这些操作同时发生。保证在替换时不会有任何重叠： S = "abc", indexes =
+[0, 1], sources = ["ab","bc"] 不是有效的测试用例。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;a&quot;,&quot;cd&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]
+   <strong>输出：</strong>&quot;eeebffff&quot;
+   <strong>解释：
+   </strong>&quot;a&quot; 从 S 中的索引 0 开始，所以它被替换为 &quot;eee&quot;。
+   &quot;cd&quot; 从 S 中的索引 2 开始，所以它被替换为 &quot;ffff&quot;。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>S = &quot;abcd&quot;, indexes = [0,2], sources = [&quot;ab&quot;,&quot;ec&quot;], targets = [&quot;eee&quot;,&quot;ffff&quot;]
+   <strong>输出：</strong>&quot;eeecd&quot;
+   <strong>解释：
+   </strong>&quot;ab&quot; 从 S 中的索引 0 开始，所以它被替换为 &quot;eee&quot;。
+   &quot;ec&quot; 没有从<strong>原始的</strong> S 中的索引 2 开始，所以它没有被替换。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>0 &lt;=&nbsp;indexes.length =&nbsp;sources.length =&nbsp;targets.length &lt;= 100</code></li>
+    <li><code>0&nbsp;&lt;&nbsp;indexes[i]&nbsp;&lt; S.length &lt;= 1000</code></li>
+    <li>给定输入中的所有字符都是小写字母。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string findReplaceString(string S, vector<int>& indexes, vector<string>& sources, vector<string>& targets) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

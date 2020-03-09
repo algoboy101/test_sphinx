@@ -1,0 +1,256 @@
+[0968] 监控二叉树
+=================
+
+-  https://leetcode-cn.com/problems/binary-tree-cameras
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个二叉树，我们在树的节点上安装摄像头。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+节点上的每个摄影头都可以监视其父对象、自身及其直接子对象。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+计算监控树的所有节点所需的最小摄像头数量。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[0,0,null,0,0]
+   <strong>输出：</strong>1
+   <strong>解释：</strong>如图所示，一台摄像头足以监控所有节点。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[0,0,null,0,null,0,null,null,0]
+   <strong>输出：</strong>2
+   <strong>解释：</strong>需要至少两个摄像头来监视树的所有节点。 上图显示了摄像头放置的有效位置之一。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>给定树的节点数的范围是&nbsp;<code>[1, 1000]</code>。</li>
+    <li>每个节点的值都是 0。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        int minCameraCover(TreeNode* root) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

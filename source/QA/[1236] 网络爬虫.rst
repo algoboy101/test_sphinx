@@ -1,0 +1,332 @@
+[1236] 网络爬虫
+===============
+
+-  https://leetcode-cn.com/problems/web-crawler
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个链接 startUrl
+和一个接口 HtmlParser ，请你实现一个网络爬虫，以实现爬取同 startUrl 拥有相同 域名标签 的全部链接。该爬虫得到的全部链接可以 任何顺序 返回结果。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你的网络爬虫应当按照如下模式工作：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>自链接&nbsp;<code>startUrl</code>&nbsp;开始爬取</li>
+    <li>调用&nbsp;<code>HtmlParser.getUrls(url)</code>&nbsp;来获得链接<code>url</code>页面中的全部链接</li>
+    <li>同一个链接最多只爬取一次</li>
+    <li>只输出&nbsp;<strong>域名&nbsp;</strong>与<strong>&nbsp;</strong><code>startUrl</code>&nbsp;<strong>相同&nbsp;</strong>的链接集合</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如上所示的一个链接，其域名为 example.org。简单起见，你可以假设所有的链接都采用 http协议 并没有指定 端口。例如，链接 http://leetcode.com/problems 和 http://leetcode.com/contest 是同一个域名下的，而链接http://example.org/test 和 http://example.com/abc
+是不在同一域名下的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+HtmlParser 接口定义如下： 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>interface HtmlParser {
+     // 返回给定 url 对应的页面中的全部 url 。
+     public List&lt;String&gt; getUrls(String url);
+   }</pre>
+
+.. raw:: html
+
+   <p>
+
+下面是两个实例，用以解释该问题的设计功能，对于自定义测试，你可以使用三个变量  urls, edges 和 startUrl。注意在代码实现中，你只可以访问 startUrl ，而 urls 和 edges 不可以在你的代码中被直接访问。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>urls = [
+   &nbsp; &quot;http://news.yahoo.com&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news/topics/&quot;,
+   &nbsp; &quot;http://news.google.com&quot;,
+   &nbsp; &quot;http://news.yahoo.com/us&quot;
+   ]
+   edges = [[2,0],[2,1],[3,2],[3,1],[0,4]]
+   startUrl = &quot;http://news.yahoo.com/news/topics/&quot;
+   <strong>输出：</strong>[
+   &nbsp; &quot;http://news.yahoo.com&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news/topics/&quot;,
+   &nbsp; &quot;http://news.yahoo.com/us&quot;
+   ]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>
+   urls = [
+   &nbsp; &quot;http://news.yahoo.com&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news&quot;,
+   &nbsp; &quot;http://news.yahoo.com/news/topics/&quot;,
+   &nbsp; &quot;http://news.google.com&quot;
+   ]
+   edges = [[0,2],[2,1],[3,2],[3,1],[3,0]]
+   startUrl = &quot;http://news.google.com&quot;
+   <strong>输入：</strong>[&quot;http://news.google.com&quot;]
+   <strong>解释：</strong>startUrl 链接到所有其他不共享相同主机名的页面。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= urls.length &lt;= 1000</code></li>
+    <li><code>1 &lt;= urls[i].length &lt;= 300</code></li>
+    <li><code>startUrl</code>&nbsp;为&nbsp;<code>urls</code>&nbsp;中的一个。</li>
+    <li>域名标签的长为1到63个字符（包括点），只能包含从&lsquo;a&rsquo;到&lsquo;z&rsquo;的ASCII字母、&lsquo;0&rsquo;到&lsquo;9&rsquo;的数字以及连字符即减号（&lsquo;-&rsquo;）。</li>
+    <li>域名标签不会以连字符即减号（&lsquo;-&rsquo;）开头或结尾。</li>
+    <li>关于域名有效性的约束可参考:&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Hostname#Restrictions_on_valid_hostnames">https://en.wikipedia.org/wiki/Hostname#Restrictions_on_valid_hostnames</a></li>
+    <li>你可以假定url库中不包含重复项。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+广度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * // This is the HtmlParser's API interface.
+     * // You should not implement it, or speculate about its implementation
+     * class HtmlParser {
+     *   public:
+     *     vector<string> getUrls(string url);
+     * };
+     */
+    class Solution {
+    public:
+        vector<string> crawl(string startUrl, HtmlParser htmlParser) {
+            
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

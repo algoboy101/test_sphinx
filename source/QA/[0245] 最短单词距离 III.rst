@@ -1,0 +1,168 @@
+[0245] 最短单词距离 III
+=======================
+
+-  https://leetcode-cn.com/problems/shortest-word-distance-iii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个单词列表和两个单词 word1 和
+word2，返回列表中这两个单词之间的最短距离。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+word1 和
+word2 是有可能相同的，并且它们将分别表示为列表中两个独立的单词。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例: 假设 words = ["practice", "makes", "perfect", "coding", "makes"].
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <em>word1</em> = <code>&ldquo;makes&rdquo;</code>, <em>word2</em> = <code>&ldquo;coding&rdquo;</code>
+   <strong>输出:</strong> 1
+   </pre>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <em>word1</em> = <code>&quot;makes&quot;</code>, <em>word2</em> = <code>&quot;makes&quot;</code>
+   <strong>输出:</strong> 3
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意: 你可以假设 word1 和 word2 都在列表里。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int shortestWordDistance(vector<string>& words, string word1, string word2) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

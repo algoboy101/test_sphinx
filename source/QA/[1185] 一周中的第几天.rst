@@ -1,0 +1,235 @@
+[1185] 一周中的第几天
+=====================
+
+-  https://leetcode-cn.com/problems/day-of-the-week
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你一个日期，请你设计一个算法来判断它是对应一周中的哪一天。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+输入为三个整数：day、month 和 year，分别表示日、月、年。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+您返回的结果必须是这几个值中的一个 {"Sunday", "Monday", "Tuesday",
+"Wednesday", "Thursday", "Friday", "Saturday"}。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>day = 31, month = 8, year = 2019
+   <strong>输出：</strong>&quot;Saturday&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>day = 18, month = 7, year = 1999
+   <strong>输出：</strong>&quot;Sunday&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>day = 15, month = 8, year = 1993
+   <strong>输出：</strong>&quot;Sunday&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>给出的日期一定是在&nbsp;<code>1971</code> 到&nbsp;<code>2100</code>&nbsp;年之间的有效日期。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string dayOfTheWeek(int day, int month, int year) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

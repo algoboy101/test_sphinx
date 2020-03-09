@@ -1,0 +1,239 @@
+[1182] 与目标颜色间的最短距离
+=============================
+
+-  https://leetcode-cn.com/problems/shortest-distance-to-target-color
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你一个数组 colors，里面有  1、2、 3 三种颜色。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们需要在 colors 上进行一些查询操作 queries，其中每个待查项都由两个整数
+i 和 c 组成。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在请你帮忙设计一个算法，查找从索引 i 到具有目标颜色 c 的元素之间的最短距离。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果不存在解决方案，请返回 -1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>colors = [1,1,2,1,3,2,2,3,3], queries = [[1,3],[2,2],[6,1]]
+   <strong>输出：</strong>[3,0,3]
+   <strong>解释： </strong>
+   距离索引 1 最近的颜色 3 位于索引 4（距离为 3）。
+   距离索引 2 最近的颜色 2 就是它自己（距离为 0）。
+   距离索引 6 最近的颜色 1 位于索引 3（距离为 3）。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>colors = [1,2], queries = [[0,3]]
+   <strong>输出：</strong>[-1]
+   <strong>解释：</strong>colors 中没有颜色 3。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= colors.length &lt;= 5*10^4</code></li>
+    <li><code>1 &lt;= colors[i] &lt;= 3</code></li>
+    <li><code>1&nbsp;&lt;= queries.length &lt;= 5*10^4</code></li>
+    <li><code>queries[i].length == 2</code></li>
+    <li><code>0 &lt;= queries[i][0] &lt;&nbsp;colors.length</code></li>
+    <li><code>1 &lt;= queries[i][1] &lt;= 3</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

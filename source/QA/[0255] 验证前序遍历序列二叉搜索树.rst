@@ -1,0 +1,212 @@
+[0255] 验证前序遍历序列二叉搜索树
+=================================
+
+-  https://leetcode-cn.com/problems/verify-preorder-sequence-in-binary-search-tree
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个整数数组，你需要验证它是否是一个二叉搜索树正确的先序遍历序列。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以假定该序列中的数都是不相同的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+参考以下这颗二叉搜索树：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>     5
+       / \
+      2   6
+     / \
+    1   3</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>[5,2,6,1,3]
+   <strong>输出: </strong>false</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>[5,2,1,3,6]
+   <strong>输出: </strong>true</pre>
+
+.. raw:: html
+
+   <p>
+
+进阶挑战：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+您能否使用恒定的空间复杂度来完成此题？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool verifyPreorder(vector<int>& preorder) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

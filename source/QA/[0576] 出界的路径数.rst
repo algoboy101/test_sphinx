@@ -1,0 +1,216 @@
+[0576] 出界的路径数
+===================
+
+-  https://leetcode-cn.com/problems/out-of-boundary-paths
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个 m × n
+的网格和一个球。球的起始坐标为 (i,j) ，你可以将球移到相邻的单元格内，或者往上、下、左、右四个方向上移动使球穿过网格边界。但是，你最多可以移动 N 次。找出可以将球移出边界的路径数量。答案可能非常大，返回
+结果 mod 109 + 7 的值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>m = 2, n = 2, N = 2, i = 0, j = 0
+   <strong>输出:</strong> 6
+   <strong>解释:</strong>
+   <img src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/out_of_boundary_paths_1.png" style="width: 100%; max-width: 400px">
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>m = 1, n = 3, N = 3, i = 0, j = 1
+   <strong>输出:</strong> 12
+   <strong>解释:</strong>
+   <img src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/out_of_boundary_paths_2.png" style="width: 100%; max-width: 400px">
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>球一旦出界，就不能再被移动回网格内。</li>
+    <li>网格的长度和高度在 [1,50] 的范围内。</li>
+    <li>N 在 [0,50] 的范围内。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findPaths(int m, int n, int N, int i, int j) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

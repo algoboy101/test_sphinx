@@ -1,0 +1,272 @@
+[1347] 制造字母异位词的最小步骤数
+=================================
+
+-  https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你两个长度相等的字符串 s 和 t。每一个步骤中，你可以选择将 t 中的
+任一字符 替换为 另一个字符。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回使 t 成为 s 的字母异位词的最小步骤数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+字母异位词 指字母相同，但排列不同的字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>s = &quot;bab&quot;, t = &quot;aba&quot;
+   <strong>输出：</strong>1
+   <strong>提示：</strong>用 &#39;b&#39; 替换 t 中的第一个 &#39;a&#39;，t = &quot;bba&quot; 是 s 的一个字母异位词。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>s = &quot;leetcode&quot;, t = &quot;practice&quot;
+   <strong>输出：</strong>5
+   <strong>提示：</strong>用合适的字符替换 t 中的 &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; 和 &#39;c&#39;，使 t 变成 s 的字母异位词。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>s = &quot;anagram&quot;, t = &quot;mangaar&quot;
+   <strong>输出：</strong>0
+   <strong>提示：</strong>&quot;anagram&quot; 和 &quot;mangaar&quot; 本身就是一组字母异位词。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 4：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>s = &quot;xxyyzz&quot;, t = &quot;xxyyzz&quot;
+   <strong>输出：</strong>0
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 5：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>s = &quot;friend&quot;, t = &quot;family&quot;
+   <strong>输出：</strong>4
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= s.length &lt;= 50000</code></li>
+    <li><code>s.length == t.length</code></li>
+    <li><code>s</code> 和 <code>t</code>&nbsp;只包含小写英文字母</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minSteps(string s, string t) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

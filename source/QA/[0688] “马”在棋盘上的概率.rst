@@ -1,0 +1,259 @@
+[0688] “马”在棋盘上的概率
+=========================
+
+-  https://leetcode-cn.com/problems/knight-probability-in-chessboard
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+已知一个 NxN 的国际象棋棋盘，棋盘的行号和列号都是从 0
+开始。即最左上角的格子记为 (0, 0)，最右下角的记为 (N-1, N-1)。 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现有一个 “马”（也译作 “骑士”）位于 (r, c) ，并打算进行 K 次移动。 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如下图所示，国际象棋的 “马” 每一步先沿水平或垂直方向移动 2
+个格子，然后向与之相垂直的方向再移动 1 个格子，共有 8 个可选的位置。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在 “马”
+每一步都从可选的位置（包括棋盘外部的）中独立随机地选择一个进行移动，直到移动了 K 次或跳到了棋盘外面。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+求移动结束后，“马” 仍留在棋盘上的概率。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> 3, 2, 0, 0
+   <strong>输出:</strong> 0.0625
+   <strong>解释:</strong> 
+   输入的数据依次为 N, K, r, c
+   第 1 步时，有且只有 2 种走法令 &ldquo;马&rdquo; 可以留在棋盘上（跳到（1,2）或（2,1））。对于以上的两种情况，各自在第2步均有且只有2种走法令 &ldquo;马&rdquo; 仍然留在棋盘上。
+   所以 &ldquo;马&rdquo; 在结束后仍在棋盘上的概率为 0.0625。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>N</code> 的取值范围为 [1, 25]</li>
+    <li><code>K</code>&nbsp;的取值范围为 [0, 100]</li>
+    <li>开始时，&ldquo;马&rdquo; 总是位于棋盘上</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        double knightProbability(int N, int K, int r, int c) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

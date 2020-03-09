@@ -1,0 +1,281 @@
+[1136] 平行课程
+===============
+
+-  https://leetcode-cn.com/problems/parallel-courses
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+已知有 N 门课程，它们以 1 到 N 进行编号。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你一份课程关系表 relations[i] = [X,
+Y]，用以表示课程 X 和课程 Y 之间的先修关系：课程 X 必须在课程 Y 之前修完。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+假设在一个学期里，你可以学习任何数量的课程，但前提是你已经学习了将要学习的这些课程的所有先修课程。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+请你返回学完全部课程所需的最少学期数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果没有办法做到学完全部这些课程的话，就返回 -1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>N = 3, relations = [[1,3],[2,3]]
+   <strong>输出：</strong>2
+   <strong>解释：</strong>
+   在第一个学期学习课程 1 和 2，在第二个学期学习课程 3。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>N = 3, relations = [[1,2],[2,3],[3,1]]
+   <strong>输出：</strong>-1
+   <strong>解释：</strong>
+   没有课程可以学习，因为它们相互依赖。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= N &lt;= 5000</code></li>
+    <li><code>1 &lt;= relations.length &lt;= 5000</code></li>
+    <li><code>relations[i][0] != relations[i][1]</code></li>
+    <li>输入中没有重复的关系</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minimumSemesters(int N, vector<vector<int>>& relations) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

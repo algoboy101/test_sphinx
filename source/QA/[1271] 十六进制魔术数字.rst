@@ -1,0 +1,235 @@
+[1271] 十六进制魔术数字
+=======================
+
+-  https://leetcode-cn.com/problems/hexspeak
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+你有一个十进制数字，请按照此规则将它变成「十六进制魔术数字」：首先将它变成字母大写的十六进制字符串，然后将所有的数字 0
+变成字母 O ，将数字 1  变成字母 I 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果一个数字在转换后只包含 {"A", "B", "C", "D", "E", "F", "I",
+"O"} ，那么我们就认为这个转换是有效的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你一个字符串 num ，它表示一个十进制数
+N，如果它的十六进制魔术数字转换是有效的，请返回转换后的结果，否则返回 "ERROR"
+。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>num = &quot;257&quot;
+   <strong>输出：</strong>&quot;IOI&quot;
+   <strong>解释：</strong>257 的十六进制表示是 101 。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>num = &quot;3&quot;
+   <strong>输出：</strong>&quot;ERROR&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= N &lt;= 10^12</code></li>
+    <li>给定字符串不会有前导 0 。</li>
+    <li>结果中的所有字母都应该是大写字母。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string toHexspeak(string num) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

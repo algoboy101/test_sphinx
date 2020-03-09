@@ -1,0 +1,225 @@
+[0772] 基本计算器 III
+=====================
+
+-  https://leetcode-cn.com/problems/basic-calculator-iii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+实现一个基本的计算器来计算简单的表达式字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+表达式字符串可以包含左括号 ( 和右括号 )，加号 + 和减号
+-，非负 整数和空格 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+表达式字符串只包含非负整数， +, -, \*, / 操作符，左括号 ( ，右括号
+)和空格 。整数除法需要向下截断。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以假定给定的字符串总是有效的。所有的中间结果的范围为 [-2147483648,
+2147483647]。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+一些例子：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>&quot;1 + 1&quot; = 2
+   &quot; 6-4 / 2 &quot; = 4
+   &quot;2*(5+5*2)/3+(6/2+8)&quot; = 21
+   &quot;(2+6* 3+5- (3*14/7+2)*5)+3&quot;=-12
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注：不要 使用内置库函数 eval。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int calculate(string s) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,235 @@
+[0903] DI 序列的有效排列
+========================
+
+-  https://leetcode-cn.com/problems/valid-permutations-for-di-sequence
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们给出 S，一个源于 {'D', 'I'} 的长度为 n 的字符串 。（这些字母代表
+“减少” 和 “增加”。） 有效排列 是对整数 {0, 1, ..., n} 的一个排列 P[0],
+P[1], ..., P[n]，使得对所有的 i：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>如果 <code>S[i] == &#39;D&#39;</code>，那么&nbsp;<code>P[i] &gt; P[i+1]</code>，以及；</li>
+    <li>如果 <code>S[i] == &#39;I&#39;</code>，那么 <code>P[i] &lt; P[i+1]</code>。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+有多少个有效排列？因为答案可能很大，所以请返回你的答案模 10^9 + 7.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>&quot;DID&quot;
+   <strong>输出：</strong>5
+   <strong>解释：</strong>
+   (0, 1, 2, 3) 的五个有效排列是：
+   (1, 0, 3, 2)
+   (2, 0, 3, 1)
+   (2, 1, 3, 0)
+   (3, 0, 2, 1)
+   (3, 1, 2, 0)
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= S.length &lt;= 200</code></li>
+    <li><code>S</code> 仅由集合 <code>{&#39;D&#39;, &#39;I&#39;}</code>&nbsp;中的字符组成。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+分治算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int numPermsDISequence(string S) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

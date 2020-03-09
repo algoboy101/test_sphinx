@@ -1,0 +1,198 @@
+[0496] 下一个更大元素 I
+=======================
+
+-  https://leetcode-cn.com/problems/next-greater-element-i
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定两个没有重复元素的数组 nums1
+和 nums2 ，其中nums1 是 nums2 的子集。找到 nums1 中每个元素在 nums2 中的下一个比其大的值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+nums1 中数字 x 的下一个更大元素是指 x 在 nums2 中对应位置的右边的第一个比 x 大的元素。如果不存在，对应位置输出-1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> <strong>nums1</strong> = [4,1,2], <strong>nums2</strong> = [1,3,4,2].
+   <strong>输出:</strong> [-1,3,-1]
+   <strong>解释:</strong>
+       对于num1中的数字4，你无法在第二个数组中找到下一个更大的数字，因此输出 -1。
+       对于num1中的数字1，第二个数组中数字1右边的下一个较大数字是 3。
+       对于num1中的数字2，第二个数组中没有下一个更大的数字，因此输出 -1。</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> <strong>nums1</strong> = [2,4], <strong>nums2</strong> = [1,2,3,4].
+   <strong>输出:</strong> [3,-1]
+   <strong>解释:</strong>
+   &nbsp;   对于num1中的数字2，第二个数组中的下一个较大数字是3。
+       对于num1中的数字4，第二个数组中没有下一个更大的数字，因此输出 -1。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>nums1</code>和<code>nums2</code>中所有元素是唯一的。</li>
+    <li><code>nums1</code>和<code>nums2</code>&nbsp;的数组大小都不超过1000。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,254 @@
+[0173] 二叉搜索树迭代器
+=======================
+
+-  https://leetcode-cn.com/problems/binary-search-tree-iterator
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+实现一个二叉搜索树迭代器。你将使用二叉搜索树的根节点初始化迭代器。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+调用 next() 将返回二叉搜索树中的下一个最小的数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>BSTIterator iterator = new BSTIterator(root);
+   iterator.next();    // 返回 3
+   iterator.next();    // 返回 7
+   iterator.hasNext(); // 返回 true
+   iterator.next();    // 返回 9
+   iterator.hasNext(); // 返回 true
+   iterator.next();    // 返回 15
+   iterator.hasNext(); // 返回 true
+   iterator.next();    // 返回 20
+   iterator.hasNext(); // 返回 false</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>next()</code>&nbsp;和&nbsp;<code>hasNext()</code>&nbsp;操作的时间复杂度是&nbsp;O(1)，并使用&nbsp;O(<em>h</em>) 内存，其中&nbsp;<em>h&nbsp;</em>是树的高度。</li>
+    <li>你可以假设&nbsp;<code>next()</code>&nbsp;调用总是有效的，也就是说，当调用 <code>next()</code>&nbsp;时，BST 中至少存在一个下一个最小的数。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+设计
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class BSTIterator {
+    public:
+        BSTIterator(TreeNode* root) {
+
+        }
+        
+        /** @return the next smallest number */
+        int next() {
+
+        }
+        
+        /** @return whether we have a next smallest number */
+        bool hasNext() {
+
+        }
+    };
+
+    /**
+     * Your BSTIterator object will be instantiated and called as such:
+     * BSTIterator* obj = new BSTIterator(root);
+     * int param_1 = obj->next();
+     * bool param_2 = obj->hasNext();
+     */
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

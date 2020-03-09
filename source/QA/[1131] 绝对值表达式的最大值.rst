@@ -1,0 +1,228 @@
+[1131] 绝对值表达式的最大值
+===========================
+
+-  https://leetcode-cn.com/problems/maximum-of-absolute-value-expression
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你两个长度相等的整数数组，返回下面表达式的最大值：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+\|arr1[i] - arr1[j]\| + \|arr2[i] - arr2[j]\| + \|i - j\|
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+其中下标 i，j 满足 0 <= i, j < arr1.length。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>arr1 = [1,2,3,4], arr2 = [-1,4,5,6]
+   <strong>输出：</strong>13
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>arr1 = [1,-2,-5,0,10], arr2 = [0,-2,-1,-7,-4]
+   <strong>输出：</strong>20</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>2 &lt;= arr1.length == arr2.length &lt;= 40000</code></li>
+    <li><code>-10^6 &lt;= arr1[i], arr2[i] &lt;= 10^6</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+位运算
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int maxAbsValExpr(vector<int>& arr1, vector<int>& arr2) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

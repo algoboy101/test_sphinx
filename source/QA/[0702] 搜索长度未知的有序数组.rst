@@ -1,0 +1,218 @@
+[0702] 搜索长度未知的有序数组
+=============================
+
+-  https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个升序整数数组，写一个函数搜索 nums 中数字 target。如果 target
+存在，返回它的下标，否则返回
+-1。注意，这个数组的大小是未知的。你只可以通过 ArrayReader
+接口访问这个数组，ArrayReader.get(k) 返回数组中第 k 个元素（下标从 0
+开始）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以认为数组中所有的整数都小于
+10000。如果你访问数组越界，ArrayReader.get 会返回 2147483647。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+样例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <code>array</code> = [-1,0,3,5,9,12], <code>target</code> = 9
+   <strong>输出:</strong> 4
+   <strong>解释:</strong> 9 存在在 nums 中，下标为 4
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+样例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <code>array</code> = [-1,0,3,5,9,12], <code>target</code> = 2
+   <strong>输出:</strong> -1
+   <strong>解释:</strong> 2 不在数组中所以返回 -1</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注释 ：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>你可以认为数组中所有元素的值互不相同。</li>
+    <li>数组元素的值域是&nbsp;<code>[-9999, 9999]</code>。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    // Forward declaration of ArrayReader class.
+    class ArrayReader;
+
+    class Solution {
+    public:
+        int search(const ArrayReader& reader, int target) {
+            
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

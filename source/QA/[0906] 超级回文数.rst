@@ -1,0 +1,208 @@
+[0906] 超级回文数
+=================
+
+-  https://leetcode-cn.com/problems/super-palindromes
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+如果一个正整数自身是回文数，而且它也是一个回文数的平方，那么我们称这个数为超级回文数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在，给定两个正整数 L 和 R （以字符串形式表示），返回包含在范围 [L, R]
+中的超级回文数的数目。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>L = &quot;4&quot;, R = &quot;1000&quot;
+   <strong>输出：</strong>4
+   <strong>解释：
+   </strong>4，9，121，以及 484 是超级回文数。
+   注意 676 不是一个超级回文数： 26 * 26 = 676，但是 26 不是回文数。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= len(L) &lt;= 18</code></li>
+    <li><code>1 &lt;= len(R) &lt;= 18</code></li>
+    <li><code>L</code> 和&nbsp;<code>R</code>&nbsp;是表示&nbsp;<code>[1, 10^18)</code>&nbsp;范围的整数的字符串。</li>
+    <li><code>int(L) &lt;= int(R)</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int superpalindromesInRange(string L, string R) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

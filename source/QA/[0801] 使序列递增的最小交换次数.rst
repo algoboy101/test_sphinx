@@ -1,0 +1,189 @@
+[0801] 使序列递增的最小交换次数
+===============================
+
+-  https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们有两个长度相等且不为空的整型数组 A 和 B 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们可以交换 A[i] 和 B[i] 的元素。注意这两个元素在各自的序列中应该处于相同的位置。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+在交换过一些元素之后，数组 A 和 B 都应该是严格递增的（数组严格递增的条件仅为A[0]
+< A[1] < A[2] < ... < A[A.length - 1]）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给定数组 A 和 B ，请返回使得两个数组均保持严格递增状态的最小交换次数。假设给定的输入总是有效的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>示例:</strong>
+   <strong>输入:</strong> A = [1,3,5,4], B = [1,2,3,7]
+   <strong>输出:</strong> 1
+   <strong>解释: </strong>
+   交换 A[3] 和 B[3] 后，两个数组如下:
+   A = [1, 3, 5, 7] ， B = [1, 2, 3, 4]
+   两个数组均为严格递增的。</pre>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>A, B</code>&nbsp;两个数组的长度总是相等的，且长度的范围为&nbsp;<code>[1, 1000]</code>。</li>
+    <li><code>A[i], B[i]</code>&nbsp;均为&nbsp;<code>[0, 2000]</code>区间内的整数。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minSwap(vector<int>& A, vector<int>& B) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

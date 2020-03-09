@@ -1,0 +1,234 @@
+[0667] 优美的排列 II
+====================
+
+-  https://leetcode-cn.com/problems/beautiful-arrangement-ii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定两个整数 n 和 k，你需要实现一个数组，这个数组包含从 1 到 n 的
+n 个不同整数，同时满足以下条件：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+① 如果这个数组是 [a1, a2, a3, ... , an] ，那么数组 [\|a1 - a2\|, \|a2 -
+a3\|, \|a3 - a4\|, ... , \|an-1 - an\|] 中应该有且仅有 k 个不同整数；.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+② 如果存在多种答案，你只需实现并返回其中任意一种.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> n = 3, k = 1
+   <strong>输出:</strong> [1, 2, 3]
+   <strong>解释:</strong> [1, 2, 3] 包含 3 个范围在 1-3 的不同整数， 并且 [1, 1] 中有且仅有 1 个不同整数 : 1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> n = 3, k = 2
+   <strong>输出:</strong> [1, 3, 2]
+   <strong>解释:</strong> [1, 3, 2] 包含 3 个范围在 1-3 的不同整数， 并且 [2, 1] 中有且仅有 2 个不同整数: 1 和 2
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>&nbsp;<code>n</code>&nbsp;和&nbsp;<code>k</code>&nbsp;满足条件&nbsp;1 &lt;= k &lt; n &lt;= 10<sup>4</sup>.</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> constructArray(int n, int k) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

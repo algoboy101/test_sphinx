@@ -1,0 +1,239 @@
+[0970] 强整数
+=============
+
+-  https://leetcode-cn.com/problems/powerful-integers
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定两个正整数 x 和 y，如果某一整数等于 x^i + y^j，其中整数 i >= 0 且 j
+>= 0，那么我们认为该整数是一个强整数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回值小于或等于 bound 的所有强整数组成的列表。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以按任何顺序返回答案。在你的回答中，每个值最多出现一次。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>x = 2, y = 3, bound = 10
+   <strong>输出：</strong>[2,3,4,5,7,9,10]
+   <strong>解释： </strong>
+   2 = 2^0 + 3^0
+   3 = 2^1 + 3^0
+   4 = 2^0 + 3^1
+   5 = 2^1 + 3^1
+   7 = 2^2 + 3^1
+   9 = 2^3 + 3^0
+   10 = 2^0 + 3^2
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>x = 3, y = 5, bound = 15
+   <strong>输出：</strong>[2,4,6,8,10,14]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= x &lt;= 100</code></li>
+    <li><code>1 &lt;= y&nbsp;&lt;= 100</code></li>
+    <li><code>0 &lt;= bound&nbsp;&lt;= 10^6</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> powerfulIntegers(int x, int y, int bound) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

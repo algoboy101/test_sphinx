@@ -1,0 +1,194 @@
+[0397] 整数替换
+===============
+
+-  https://leetcode-cn.com/problems/integer-replacement
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个正整数 n，你可以做如下操作：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+1. 如果 n 是偶数，则用 n / 2替换 n。
+2. 如果 n 是奇数，则可以用 n + 1或n - 1替换 n。 n 变为 1
+   所需的最小替换次数是多少？
+
+   .. raw:: html
+
+      </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   8
+
+   <strong>输出:</strong>
+   3
+
+   <strong>解释:</strong>
+   8 -&gt; 4 -&gt; 2 -&gt; 1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   7
+
+   <strong>输出:</strong>
+   4
+
+   <strong>解释:</strong>
+   7 -&gt; 8 -&gt; 4 -&gt; 2 -&gt; 1
+   或
+   7 -&gt; 6 -&gt; 3 -&gt; 2 -&gt; 1
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+位运算
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int integerReplacement(int n) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

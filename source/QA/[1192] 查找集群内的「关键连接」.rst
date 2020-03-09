@@ -1,0 +1,235 @@
+[1192] 查找集群内的「关键连接」
+===============================
+
+-  https://leetcode-cn.com/problems/critical-connections-in-a-network
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+力扣数据中心有 n 台服务器，分别按从 0 到 n-1 的方式进行了编号。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+它们之间以「服务器到服务器」点对点的形式相互连接组成了一个内部集群，其中连接 connections
+是无向的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+从形式上讲，connections[i] = [a, b] 表示服务器 a 和
+b 之间形成连接。任何服务器都可以直接或者间接地通过网络到达任何其他服务器。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+「关键连接」是在该集群中的重要连接，也就是说，假如我们将它移除，便会导致某些服务器无法访问其他服务器。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+请你以任意顺序返回该集群内的所有 「关键连接」。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]
+   <strong>输出：</strong>[[1,3]]
+   <strong>解释：</strong>[[3,1]] 也是正确的。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= n &lt;= 10^5</code></li>
+    <li><code>n-1 &lt;= connections.length &lt;= 10^5</code></li>
+    <li><code>connections[i][0] != connections[i][1]</code></li>
+    <li>不存在重复的连接</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

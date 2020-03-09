@@ -1,0 +1,210 @@
+[0804] 唯一摩尔斯密码词
+=======================
+
+-  https://leetcode-cn.com/problems/unique-morse-code-words
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+国际摩尔斯密码定义一种标准编码方式，将每个字母对应于一个由一系列点和短线组成的字符串， 比如:
+"a" 对应 ".-", "b" 对应 "-...", "c" 对应 "-.-.", 等等。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+为了方便，所有26个英文字母对应摩尔斯密码表如下：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[&quot;.-&quot;,&quot;-...&quot;,&quot;-.-.&quot;,&quot;-..&quot;,&quot;.&quot;,&quot;..-.&quot;,&quot;--.&quot;,&quot;....&quot;,&quot;..&quot;,&quot;.---&quot;,&quot;-.-&quot;,&quot;.-..&quot;,&quot;--&quot;,&quot;-.&quot;,&quot;---&quot;,&quot;.--.&quot;,&quot;--.-&quot;,&quot;.-.&quot;,&quot;...&quot;,&quot;-&quot;,&quot;..-&quot;,&quot;...-&quot;,&quot;.--&quot;,&quot;-..-&quot;,&quot;-.--&quot;,&quot;--..&quot;]</pre>
+
+.. raw:: html
+
+   <p>
+
+给定一个单词列表，每个单词可以写成每个字母对应摩尔斯密码的组合。例如，"cab"
+可以写成 "-.-..--..."，(即 "-.-." + "-..." +
+".-"字符串的结合)。我们将这样一个连接过程称作单词翻译。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回我们可以获得所有词不同单词翻译的数量。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>例如:</strong>
+   <strong>输入:</strong> words = [&quot;gin&quot;, &quot;zen&quot;, &quot;gig&quot;, &quot;msg&quot;]
+   <strong>输出:</strong> 2
+   <strong>解释: </strong>
+   各单词翻译如下:
+   &quot;gin&quot; -&gt; &quot;--...-.&quot;
+   &quot;zen&quot; -&gt; &quot;--...-.&quot;
+   &quot;gig&quot; -&gt; &quot;--...--.&quot;
+   &quot;msg&quot; -&gt; &quot;--...--.&quot;
+
+   共有 2 种不同翻译, &quot;--...-.&quot; 和 &quot;--...--.&quot;.
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>单词列表<code>words</code>&nbsp;的长度不会超过 <code>100</code>。</li>
+    <li>每个单词&nbsp;<code>words[i]</code>的长度范围为&nbsp;<code>[1, 12]</code>。</li>
+    <li>每个单词&nbsp;<code>words[i]</code>只包含小写字母。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int uniqueMorseRepresentations(vector<string>& words) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

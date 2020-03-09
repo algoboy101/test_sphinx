@@ -1,0 +1,324 @@
+[0959] 由斜杠划分区域
+=====================
+
+-  https://leetcode-cn.com/problems/regions-cut-by-slashes
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+在由 1 x 1 方格组成的 N x N 网格 grid 中，每个 1 x 1 方块由 /、</code>
+或空格构成。这些字符会将方块划分为一些共边的区域。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+（请注意，反斜杠字符是转义的，因此 </code> 用 "\\" 表示。）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回区域的数目。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>[
+   &nbsp; &quot; /&quot;,
+   &nbsp; &quot;/ &quot;
+   ]
+   <strong>输出：</strong>2
+   <strong>解释：</strong>2x2 网格如下：
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/1.png"></pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>[
+   &nbsp; &quot; /&quot;,
+   &nbsp; &quot;  &quot;
+   ]
+   <strong>输出：</strong>1
+   <strong>解释：</strong>2x2 网格如下：
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/2.png"></pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>[
+   &nbsp; &quot;\\/&quot;,
+   &nbsp; &quot;/\\&quot;
+   ]
+   <strong>输出：</strong>4
+   <strong>解释：</strong>（回想一下，因为 \ 字符是转义的，所以 &quot;\\/&quot; 表示 \/，而 &quot;/\\&quot; 表示 /\。）
+   2x2 网格如下：
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/3.png"></pre>
+
+.. raw:: html
+
+   <p>
+
+示例 4：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>[
+   &nbsp; &quot;/\\&quot;,
+   &nbsp; &quot;\\/&quot;
+   ]
+   <strong>输出：</strong>5
+   <strong>解释：</strong>（回想一下，因为 \ 字符是转义的，所以 &quot;/\\&quot; 表示 /\，而 &quot;\\/&quot; 表示 \/。）
+   2x2 网格如下：
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/4.png"></pre>
+
+.. raw:: html
+
+   <p>
+
+示例 5：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：
+   </strong>[
+   &nbsp; &quot;//&quot;,
+   &nbsp; &quot;/ &quot;
+   ]
+   <strong>输出：</strong>3
+   <strong>解释：</strong>2x2 网格如下：
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/5.png">
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= grid.length == grid[0].length &lt;= 30</code></li>
+    <li><code>grid[i][j]</code> 是&nbsp;<code>&#39;/&#39;</code>、<code>&#39;\&#39;</code>、或&nbsp;<code>&#39; &#39;</code>。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+并查集
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int regionsBySlashes(vector<string>& grid) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

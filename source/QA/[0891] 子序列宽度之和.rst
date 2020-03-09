@@ -1,0 +1,227 @@
+[0891] 子序列宽度之和
+=====================
+
+-  https://leetcode-cn.com/problems/sum-of-subsequence-widths
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个整数数组 A ，考虑 A 的所有非空子序列。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对于任意序列 S ，设 S 的宽度是 S 的最大元素和最小元素的差。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回 A 的所有子序列的宽度之和。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+由于答案可能非常大，请返回答案模 10^9+7。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[2,1,3]
+   <strong>输出：</strong>6
+   <strong>解释：
+   </strong>子序列为 [1]，[2]，[3]，[2,1]，[2,3]，[1,3]，[2,1,3] 。
+   相应的宽度是 0，0，0，1，1，2，2 。
+   这些宽度之和是 6 。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= A.length &lt;= 20000</code></li>
+    <li><code>1 &lt;= A[i] &lt;= 20000</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int sumSubseqWidths(vector<int>& A) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

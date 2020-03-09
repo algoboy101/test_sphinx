@@ -1,0 +1,228 @@
+[1150] 检查一个数是否在数组中占绝大多数
+=======================================
+
+-  https://leetcode-cn.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给出一个按
+非递减 顺序排列的数组 nums，和一个目标数值 target。假如数组 nums
+中绝大多数元素的数值都等于 target，则返回 True，否则请返回 False。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+所谓占绝大多数，是指在长度为 N 的数组中出现必须 超过 N/2 次。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>nums = [2,4,5,5,5,5,5,6,6], target = 5
+   <strong>输出：</strong>true
+   <strong>解释：</strong>
+   数字 5 出现了 5 次，而数组的长度为 9。
+   所以，5 在数组中占绝大多数，因为 5 次 &gt; 9/2。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>nums = [10,100,101,101], target = 101
+   <strong>输出：</strong>false
+   <strong>解释：</strong>
+   数字 101 出现了 2 次，而数组的长度是 4。
+   所以，101 <strong>不是 </strong>数组占绝大多数的元素，因为 2 次 = 4/2。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= nums.length &lt;= 1000</code></li>
+    <li><code>1 &lt;= nums[i] &lt;= 10^9</code></li>
+    <li><code>1 &lt;= target &lt;= 10^9</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool isMajorityElement(vector<int>& nums, int target) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

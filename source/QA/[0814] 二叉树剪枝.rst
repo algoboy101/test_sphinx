@@ -1,0 +1,212 @@
+[0814] 二叉树剪枝
+=================
+
+-  https://leetcode-cn.com/problems/binary-tree-pruning
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定二叉树根结点 root ，此外树的每个结点的值要么是 0，要么是 1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回移除了所有不包含 1 的子树的原二叉树。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+( 节点 X 的子树为 X 本身，以及所有 X 的后代。)
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>示例1:</strong>
+   <strong>输入:</strong> [1,null,0,0,1]
+   <strong>输出: </strong>[1,null,0,null,1]
+    
+   <strong>解释:</strong> 
+   只有红色节点满足条件&ldquo;所有不包含 1 的子树&rdquo;。
+   右图为返回的答案。
+
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/1028_2.png" style="width:450px" />
+   </pre>
+
+.. raw:: html
+
+   <pre>
+   <strong>示例2:</strong>
+   <strong>输入:</strong> [1,0,1,0,0,0,1]
+   <strong>输出: </strong>[1,null,1,null,1]
+
+
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/1028_1.png" style="width:450px" />
+   </pre>
+
+.. raw:: html
+
+   <pre>
+   <strong>示例3:</strong>
+   <strong>输入:</strong> [1,1,0,1,1,0,1,0]
+   <strong>输出: </strong>[1,1,0,1,1,null,1]
+
+
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/1028.png" style="width:450px" />
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>给定的二叉树最多有&nbsp;<code>100</code>&nbsp;个节点。</li>
+    <li>每个节点的值只会为&nbsp;<code>0</code> 或&nbsp;<code>1</code>&nbsp;。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        TreeNode* pruneTree(TreeNode* root) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

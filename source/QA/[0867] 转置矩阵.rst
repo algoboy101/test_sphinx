@@ -1,0 +1,209 @@
+[0867] 转置矩阵
+===============
+
+-  https://leetcode-cn.com/problems/transpose-matrix
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个矩阵 A， 返回 A 的转置矩阵。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+矩阵的转置是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[[1,2,3],[4,5,6],[7,8,9]]
+   <strong>输出：</strong>[[1,4,7],[2,5,8],[3,6,9]]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[[1,2,3],[4,5,6]]
+   <strong>输出：</strong>[[1,4],[2,5],[3,6]]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= A.length&nbsp;&lt;= 1000</code></li>
+    <li><code>1 &lt;= A[0].length&nbsp;&lt;= 1000</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<vector<int>> transpose(vector<vector<int>>& A) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,152 @@
+[0175] 组合两个表
+=================
+
+-  https://leetcode-cn.com/problems/combine-two-tables
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+表1: Person
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>+-------------+---------+
+   | 列名         | 类型     |
+   +-------------+---------+
+   | PersonId    | int     |
+   | FirstName   | varchar |
+   | LastName    | varchar |
+   +-------------+---------+
+   PersonId 是上表主键
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+表2: Address
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>+-------------+---------+
+   | 列名         | 类型    |
+   +-------------+---------+
+   | AddressId   | int     |
+   | PersonId    | int     |
+   | City        | varchar |
+   | State       | varchar |
+   +-------------+---------+
+   AddressId 是上表主键
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+编写一个 SQL 查询，满足条件：无论 person
+是否有地址信息，都需要基于上述两表提供 person 的以下信息：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>FirstName, LastName, City, State
+   </pre>
+
+题目代码
+--------
+
+.. code:: cpp
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,179 @@
+[0330] 按要求补齐数组
+=====================
+
+-  https://leetcode-cn.com/problems/patching-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个已排序的正整数数组 nums，和一个正整数 n 。从 [1,
+n] 区间内选取任意个数字补充到 nums 中，使得 [1,
+n] 区间内的任何数字都可以用 nums 中某几个数字的和来表示。请输出满足上述要求的最少需要补充的数字个数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><em>nums</em> = <code>[1,3]</code>, <em>n</em> = <code>6</code>
+   <strong>输出: </strong>1 
+   <strong>解释:</strong>
+   根据<em> nums&nbsp;</em>里现有的组合&nbsp;<code>[1], [3], [1,3]</code>，可以得出&nbsp;<code>1, 3, 4</code>。
+   现在如果我们将&nbsp;<code>2</code>&nbsp;添加到&nbsp;<em>nums 中，</em>&nbsp;组合变为: <code>[1], [2], [3], [1,3], [2,3], [1,2,3]</code>。
+   其和可以表示数字&nbsp;<code>1, 2, 3, 4, 5, 6</code>，能够覆盖&nbsp;<code>[1, 6]</code>&nbsp;区间里所有的数。
+   所以我们最少需要添加一个数字。</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><em>nums</em> = <code>[1,5,10]</code>, <em>n</em> = <code>20</code>
+   <strong>输出:</strong> 2
+   <strong>解释: </strong>我们需要添加&nbsp;<code>[2, 4]</code>。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong><em>nums</em> = <code>[1,2,2]</code>, <em>n</em> = <code>5</code>
+   <strong>输出:</strong> 0
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+贪心算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minPatches(vector<int>& nums, int n) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

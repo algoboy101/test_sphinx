@@ -1,0 +1,208 @@
+[0516] 最长回文子序列
+=====================
+
+-  https://leetcode-cn.com/problems/longest-palindromic-subsequence
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个字符串s，找到其中最长的回文子序列。可以假设s的最大长度为1000。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1: 输入:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   &quot;bbbab&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+输出:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   4
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+一个可能的最长回文子序列为 "bbbb"。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 2: 输入:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   &quot;cbbd&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+输出:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   2
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+一个可能的最长回文子序列为 "bb"。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int longestPalindromeSubseq(string s) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

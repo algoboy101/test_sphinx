@@ -1,0 +1,203 @@
+[0744] 寻找比目标字母大的最小字母
+=================================
+
+-  https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个只包含小写字母的有序数组letters 和一个目标字母 target，寻找有序数组里面比目标字母大的最小字母。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+数组里字母的顺序是循环的。举个例子，如果目标字母target = 'z'
+并且有序数组为 letters = ['a', 'b']，则答案返回 'a'。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;a&quot;
+   <strong>输出:</strong> &quot;c&quot;
+
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;c&quot;
+   <strong>输出:</strong> &quot;f&quot;
+
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;d&quot;
+   <strong>输出:</strong> &quot;f&quot;
+
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;g&quot;
+   <strong>输出:</strong> &quot;j&quot;
+
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;j&quot;
+   <strong>输出:</strong> &quot;c&quot;
+
+   <strong>输入:</strong>
+   letters = [&quot;c&quot;, &quot;f&quot;, &quot;j&quot;]
+   target = &quot;k&quot;
+   <strong>输出:</strong> &quot;c&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>letters</code>长度范围在<code>[2, 10000]</code>区间内。</li>
+    <li><code>letters</code> 仅由小写字母组成，最少包含两个不同的字母。</li>
+    <li>目标字母<code>target</code> 是一个小写字母。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        char nextGreatestLetter(vector<char>& letters, char target) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

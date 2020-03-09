@@ -1,0 +1,312 @@
+[1056] 易混淆数
+===============
+
+-  https://leetcode-cn.com/problems/confusing-number
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个数字 N，当它满足以下条件的时候返回 true：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+原数字旋转 180° 以后可以得到新的数字。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如 0, 1, 6, 8, 9 旋转 180° 以后，得到了新的数字 0, 1, 9, 8, 6 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+2, 3, 4, 5, 7 旋转 180° 后，得到的不是数字。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+易混淆数 (confusing number)
+在旋转180°以后，可以得到和原来不同的数，且新数字的每一位都是有效的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>6
+   <strong>输出：</strong>true
+   <strong>解释： 
+   </strong>把 6 旋转 180&deg; 以后得到 9，9 是有效数字且 9!=6 。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>89
+   <strong>输出：</strong>true
+   <strong>解释: 
+   </strong>把 89 旋转 180&deg; 以后得到 68，<code>86</code> 是有效数字且 86!=89 。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>11
+   <strong>输出：</strong>false
+   <strong>解释：
+   </strong>把 11 旋转 180&deg; 以后得到 11，11 是有效数字但是值保持不变，所以 11 不是易混淆数字。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 4：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>25
+   <strong>输出：</strong>false
+   <strong>解释：</strong>
+   把 25 旋转 180&deg; 以后得到的不是数字。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>0 &lt;= N &lt;= 10^9</code></li>
+    <li>可以忽略掉旋转后得到的前导零，例如，如果我们旋转后得到 <code>0008</code> 那么该数字就是 <code>8</code> 。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool confusingNumber(int N) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,257 @@
+[1334] 阈值距离内邻居最少的城市
+===============================
+
+-  https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+有 n 个城市，按从 0 到 n-1 编号。给你一个边数组 edges，其中 edges[i] =
+[fromi, toi,
+weighti] 代表 fromi 和 toi 两个城市之间的双向加权边，距离阈值是一个整数 distanceThreshold。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回能通过某些路径到达其他城市数目最少、且路径距离 最大
+为 distanceThreshold 的城市。如果有多个这样的城市，则返回编号最大的城市。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意，连接城市 i 和 j 的路径的距离等于沿该路径的所有边的权重之和。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 4, edges = [[0,1,3],[1,2,1],[1,3,4],[2,3,1]], distanceThreshold = 4
+   <strong>输出：</strong>3
+   <strong>解释：</strong>城市分布图如上。
+   每个城市阈值距离 distanceThreshold = 4 内的邻居城市分别是：
+   城市 0 -&gt; [城市 1, 城市 2]&nbsp;
+   城市 1 -&gt; [城市 0, 城市 2, 城市 3]&nbsp;
+   城市 2 -&gt; [城市 0, 城市 1, 城市 3]&nbsp;
+   城市 3 -&gt; [城市 1, 城市 2]&nbsp;
+   城市 0 和 3 在阈值距离 4 以内都有 2 个邻居城市，但是我们必须返回城市 3，因为它的编号最大。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 5, edges = [[0,1,2],[0,4,8],[1,2,3],[1,4,2],[2,3,1],[3,4,1]], distanceThreshold = 2
+   <strong>输出：</strong>0
+   <strong>解释：</strong>城市分布图如上。&nbsp;
+   每个城市阈值距离 distanceThreshold = 2 内的邻居城市分别是：
+   城市 0 -&gt; [城市 1]&nbsp;
+   城市 1 -&gt; [城市 0, 城市 4]&nbsp;
+   城市 2 -&gt; [城市 3, 城市 4]&nbsp;
+   城市 3 -&gt; [城市 2, 城市 4]
+   城市 4 -&gt; [城市 1, 城市 2, 城市 3]&nbsp;
+   城市 0 在阈值距离 4 以内只有 1 个邻居城市。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>2 &lt;= n &lt;= 100</code></li>
+    <li><code>1 &lt;= edges.length &lt;= n * (n - 1) / 2</code></li>
+    <li><code>edges[i].length == 3</code></li>
+    <li><code>0 &lt;= from<sub>i</sub> &lt; to<sub>i</sub> &lt; n</code></li>
+    <li><code>1 &lt;= weight<sub>i</sub>,&nbsp;distanceThreshold &lt;= 10^4</code></li>
+    <li>所有 <code>(from<sub>i</sub>, to<sub>i</sub>)</code>&nbsp;都是不同的。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

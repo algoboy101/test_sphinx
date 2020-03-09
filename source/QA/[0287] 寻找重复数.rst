@@ -1,0 +1,202 @@
+[0287] 寻找重复数
+=================
+
+-  https://leetcode-cn.com/problems/find-the-duplicate-number
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个包含 n + 1 个整数的数组 nums，其数字都在 1 到 n 之间（包括 1 和
+n），可知至少存在一个重复的整数。假设只有一个重复的整数，找出这个重复的数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <code>[1,3,4,2,2]</code>
+   <strong>输出:</strong> 2
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> [3,1,3,4,2]
+   <strong>输出:</strong> 3
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><strong>不能</strong>更改原数组（假设数组是只读的）。</li>
+    <li>只能使用额外的 <em>O</em>(1) 的空间。</li>
+    <li>时间复杂度小于 <em>O</em>(<em>n</em><sup>2</sup>) 。</li>
+    <li>数组中只有一个重复的数字，但它可能不止重复出现一次。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+双指针
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findDuplicate(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

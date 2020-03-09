@@ -1,0 +1,209 @@
+[0757] 设置交集大小至少为2
+==========================
+
+-  https://leetcode-cn.com/problems/set-intersection-size-at-least-two
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+一个整数区间 [a, b]  ( a < b )
+代表着从 a 到 b 的所有连续整数，包括 a 和 b。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你一组整数区间intervals，请找到一个最小的集合 S，使得 S
+里的元素与区间intervals中的每一个整数区间都至少有2个元素相交。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+输出这个最小集合S的大小。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> intervals = [[1, 3], [1, 4], [2, 5], [3, 5]]
+   <strong>输出:</strong> 3
+   <strong>解释:</strong>
+   考虑集合 S = {2, 3, 4}. S与intervals中的四个区间都有至少2个相交的元素。
+   且这是S最小的情况，故我们输出3。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> intervals = [[1, 2], [2, 3], [2, 4], [4, 5]]
+   <strong>输出:</strong> 5
+   <strong>解释:</strong>
+   最小的集合S = {1, 2, 3, 4, 5}.
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>intervals</code>&nbsp;的长度范围为<code>[1, 3000]</code>。</li>
+    <li><code>intervals[i]</code>&nbsp;长度为&nbsp;<code>2</code>，分别代表左、右边界。</li>
+    <li><code>intervals[i][j]</code> 的值是&nbsp;<code>[0, 10^8]</code>范围内的整数。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+贪心算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int intersectionSizeTwo(vector<vector<int>>& intervals) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

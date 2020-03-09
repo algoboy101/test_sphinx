@@ -1,0 +1,205 @@
+[0826] 安排工作以达到最大收益
+=============================
+
+-  https://leetcode-cn.com/problems/most-profit-assigning-work
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+有一些工作：difficulty[i] 表示第i个工作的难度，profit[i]表示第i个工作的收益。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在我们有一些工人。worker[i]是第i个工人的能力，即该工人只能完成难度小于等于worker[i]的工作。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每一个工人都最多只能安排一个工作，但是一个工作可以完成多次。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+举个例子，如果3个工人都尝试完成一份报酬为1的同样工作，那么总收益为
+$3。如果一个工人不能完成任何工作，他的收益为 $0 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+我们能得到的最大收益是多少？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>difficulty = [2,4,6,8,10], profit = [10,20,30,40,50], worker = [4,5,6,7]
+   <strong>输出: </strong>100 
+   <strong>解释: </strong>工人被分配的工作难度是 [4,4,6,6] ，分别获得 [20,20,30,30] 的收益。</pre>
+
+.. raw:: html
+
+   <p>
+
+提示:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= difficulty.length = profit.length &lt;= 10000</code></li>
+    <li><code>1 &lt;= worker.length &lt;= 10000</code></li>
+    <li><code>difficulty[i], profit[i], worker[i]</code>&nbsp; 的范围是&nbsp;<code>[1, 10^5]</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+双指针
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int maxProfitAssignment(vector<int>& difficulty, vector<int>& profit, vector<int>& worker) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

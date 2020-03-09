@@ -1,0 +1,133 @@
+[0395] 至少有K个重复字符的最长子串
+==================================
+
+-  https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+找到给定字符串（由小写字符组成）中的最长子串 T
+， 要求 T 中的每一字符出现次数都不少于 k 。输出 T 的长度。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   输入:
+   s = &quot;aaabb&quot;, k = 3
+
+   输出:
+   3
+
+   最长子串为 &quot;aaa&quot; ，其中 &#39;a&#39; 重复了 3 次。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   输入:
+   s = &quot;ababbc&quot;, k = 2
+
+   输出:
+   5
+
+   最长子串为 &quot;ababb&quot; ，其中 &#39;a&#39; 重复了 2 次， &#39;b&#39; 重复了 3 次。
+   </pre>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int longestSubstring(string s, int k) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

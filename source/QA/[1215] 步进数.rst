@@ -1,0 +1,204 @@
+[1215] 步进数
+=============
+
+-  https://leetcode-cn.com/problems/stepping-numbers
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+如果一个整数上的每一位数字与其相邻位上的数字的绝对差都是
+1，那么这个数就是一个「步进数」。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如，321 是一个步进数，而 421 不是。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你两个整数，low 和 high，请你找出在 [low,
+high] 范围内的所有步进数，并返回 排序后 的结果。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>low = 0, high = 21
+   <strong>输出：</strong>[0,1,2,3,4,5,6,7,8,9,10,12,21]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>0 &lt;= low &lt;= high &lt;= 2 * 10^9</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+回溯算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> countSteppingNumbers(int low, int high) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

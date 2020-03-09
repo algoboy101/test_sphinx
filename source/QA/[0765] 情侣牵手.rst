@@ -1,0 +1,226 @@
+[0765] 情侣牵手
+===============
+
+-  https://leetcode-cn.com/problems/couples-holding-hands
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+N 对情侣坐在连续排列的 2N 个座位上，想要牵到对方的手。
+计算最少交换座位的次数，以便每对情侣可以并肩坐在一起。
+一次交换可选择任意两人，让他们站起来交换座位。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+人和座位用 0 到 2N-1 的整数表示，情侣们按顺序编号，第一对是 (0,
+1)，第二对是 (2, 3)，以此类推，最后一对是 (2N-2, 2N-1)。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+这些情侣的初始座位  row[i] 是由最初始坐在第 i 个座位上的人决定的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> row = [0, 2, 1, 3]
+   <strong>输出:</strong> 1
+   <strong>解释:</strong> 我们只需要交换row[1]和row[2]的位置即可。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> row = [3, 2, 0, 1]
+   <strong>输出:</strong> 0
+   <strong>解释:</strong> 无需交换座位，所有的情侣都已经可以手牵手了。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>len(row)</code> 是偶数且数值在&nbsp;<code>[4, 60]</code>范围内。</li>
+    <li>可以保证<code>row</code> 是序列&nbsp;<code>0...len(row)-1</code>&nbsp;的一个全排列。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+贪心算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+并查集
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minSwapsCouples(vector<int>& row) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

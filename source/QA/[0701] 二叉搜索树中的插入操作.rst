@@ -1,0 +1,211 @@
+[0701] 二叉搜索树中的插入操作
+=============================
+
+-  https://leetcode-cn.com/problems/insert-into-a-binary-search-tree
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定二叉搜索树（BST）的根节点和要插入树中的值，将值插入二叉搜索树。
+返回插入后二叉搜索树的根节点。 保证原始二叉搜索树中不存在新值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意，可能存在多种有效的插入方式，只要树在插入后仍保持为二叉搜索树即可。
+你可以返回任意有效的结果。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如, 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   给定二叉搜索树:
+
+           4
+          / \
+         2   7
+        / \
+       1   3
+
+   和 插入的值: 5
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+你可以返回这个二叉搜索树:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+            4
+          /   \
+         2     7
+        / \   /
+       1   3 5
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+或者这个树也是有效的:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+            5
+          /   \
+         2     7
+        / \   
+       1   3
+            \
+             4
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        TreeNode* insertIntoBST(TreeNode* root, int val) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

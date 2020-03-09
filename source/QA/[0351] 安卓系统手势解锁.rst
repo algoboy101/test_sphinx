@@ -1,0 +1,289 @@
+[0351] 安卓系统手势解锁
+=======================
+
+-  https://leetcode-cn.com/problems/android-unlock-patterns
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们都知道安卓有个手势解锁的界面，是一个 3 x 3 的点所绘制出来的网格。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给你两个整数，分别为 ​​m 和 n，其中 1 ≤ m ≤ n ≤
+9，那么请你统计一下有多少种解锁手势，是至少需要经过 m 个点，但是最多经过不超过 n
+个点的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+先来了解下什么是一个有效的安卓解锁手势:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>每一个解锁手势必须至少经过&nbsp;<strong>m</strong> 个点、最多经过&nbsp;<strong>n</strong>&nbsp;个点。</li>
+    <li>解锁手势里不能设置经过重复的点。</li>
+    <li>假如手势中有两个点是顺序经过的，那么这两个点的手势轨迹之间是绝对不能跨过任何未被经过的点。</li>
+    <li>经过点的顺序不同则表示为不同的解锁手势。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><img src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/android-unlock.png" style="height: 128px; width: 418px;"></pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+解释:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>| 1 | 2 | 3 |
+   | 4 | 5 | 6 |
+   | 7 | 8 | 9 |</pre>
+
+.. raw:: html
+
+   <p>
+
+无效手势：4 - 1 - 3 - 6 连接点 1 和点 3 时经过了未被连接过的 2 号点。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+无效手势：4 - 1 - 9 - 2 连接点 1 和点 9 时经过了未被连接过的 5 号点。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+有效手势：2 - 4 - 1 - 3 - 6 连接点 1 和点 3
+是有效的，因为虽然它经过了点 2 ，但是点 2 在该手势中之前已经被连过了。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+有效手势：6 - 5 - 4 - 1 - 9 - 2 连接点 1 和点 9
+是有效的，因为虽然它经过了按键 5 ，但是点 5 在该手势中之前已经被连过了。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入: </strong>m = 1，n = 1
+   <strong>输出: </strong>9
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+回溯算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int numberOfPatterns(int m, int n) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

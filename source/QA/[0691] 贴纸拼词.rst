@@ -1,0 +1,333 @@
+[0691] 贴纸拼词
+===============
+
+-  https://leetcode-cn.com/problems/stickers-to-spell-word
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+我们给出了 N 种不同类型的贴纸。每个贴纸上都有一个小写的英文单词。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你希望从自己的贴纸集合中裁剪单个字母并重新排列它们，从而拼写出给定的目标字符串
+target。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果你愿意的话，你可以不止一次地使用每一张贴纸，而且每一张贴纸的数量都是无限的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+拼出目标 target 所需的最小贴纸数量是多少？如果任务不可能，则返回 -1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+输入：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[&quot;with&quot;, &quot;example&quot;, &quot;science&quot;], &quot;thehat&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+输出：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>3
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+解释：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>我们可以使用 2 个 &quot;with&quot; 贴纸，和 1 个 &quot;example&quot; 贴纸。
+   把贴纸上的字母剪下来并重新排列后，就可以形成目标 &ldquo;thehat&ldquo; 了。
+   此外，这是形成目标字符串所需的最小贴纸数量。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+输入：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[&quot;notice&quot;, &quot;possible&quot;], &quot;basicbasic&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+输出：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>-1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+解释：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>我们不能通过剪切给定贴纸的字母来形成目标&ldquo;basicbasic&rdquo;。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>stickers</code> 长度范围是&nbsp;<code>[1, 50]</code>。</li>
+    <li><code>stickers</code> 由小写英文单词组成（不带撇号）。</li>
+    <li><code>target</code> 的长度在&nbsp;<code>[1, 15]</code>&nbsp;范围内，由小写字母组成。</li>
+    <li>在所有的测试案例中，所有的单词都是从 1000 个最常见的美国英语单词中随机选取的，目标是两个随机单词的串联。</li>
+    <li>时间限制可能比平时更具挑战性。预计 50 个贴纸的测试案例平均可在35ms内解决。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+回溯算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minStickers(vector<string>& stickers, string target) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,268 @@
+[0087] 扰乱字符串
+=================
+
+-  https://leetcode-cn.com/problems/scramble-string
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个字符串 s1，我们可以把它递归地分割成两个非空子字符串，从而将其表示为二叉树。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+下图是字符串 s1 = "great" 的一种可能的表示形式。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>    great
+      /    \
+     gr    eat
+    / \    /  \
+   g   r  e   at
+              / \
+             a   t
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+在扰乱这个字符串的过程中，我们可以挑选任何一个非叶节点，然后交换它的两个子节点。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如，如果我们挑选非叶节点 "gr" ，交换它的两个子节点，将会产生扰乱字符串 "rgeat" 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>    rgeat
+      /    \
+     rg    eat
+    / \    /  \
+   r   g  e   at
+              / \
+             a   t
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+我们将 "rgeat” 称作 "great" 的一个扰乱字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+同样地，如果我们继续交换节点 "eat" 和 "at" 的子节点，将会产生另一个新的扰乱字符串 "rgtae" 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>    rgtae
+      /    \
+     rg    tae
+    / \    /  \
+   r   g  ta  e
+          / \
+         t   a
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+我们将 "rgtae” 称作 "great" 的一个扰乱字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给出两个长度相等的字符串 s1 和 s2，判断 s2 是否是 s1 的扰乱字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> s1 = &quot;great&quot;, s2 = &quot;rgeat&quot;
+   <strong>输出:</strong> true
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> s1 = &quot;abcde&quot;, s2 = &quot;caebd&quot;
+   <strong>输出:</strong> false</pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool isScramble(string s1, string s2) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

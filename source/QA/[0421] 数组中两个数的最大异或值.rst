@@ -1,0 +1,175 @@
+[0421] 数组中两个数的最大异或值
+===============================
+
+-  https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个非空数组，数组中元素为 a0, a1, a2, … , an-1，其中 0 ≤ ai <
+231 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+找到 ai 和aj 最大的异或 (XOR) 运算结果，其中0 ≤ i,  j < n 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你能在O(n)的时间解决这个问题吗？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> [3, 10, 5, 25, 2, 8]
+
+   <strong>输出:</strong> 28
+
+   <strong>解释:</strong> 最大的结果是 <strong>5</strong> ^ <strong>25</strong> = 28.
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+位运算
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字典树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findMaximumXOR(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

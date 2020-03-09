@@ -1,0 +1,234 @@
+[0969] 煎饼排序
+===============
+
+-  https://leetcode-cn.com/problems/pancake-sorting
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定数组 A，我们可以对其进行煎饼翻转：我们选择一些正整数 k <=
+A.length，然后反转 A 的前
+k 个元素的顺序。我们要执行零次或多次煎饼翻转（按顺序一次接一次地进行）以完成对数组
+A 的排序。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回能使 A 排序的煎饼翻转操作所对应的 k
+值序列。任何将数组排序且翻转次数在 10 \* A.length
+范围内的有效答案都将被判断为正确。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[3,2,4,1]
+   <strong>输出：</strong>[4,2,4,3]
+   <strong>解释：</strong>
+   我们执行 4 次煎饼翻转，k 值分别为 4，2，4，和 3。
+   初始状态 A = [3, 2, 4, 1]
+   第一次翻转后 (k=4): A = [1, 4, 2, 3]
+   第二次翻转后 (k=2): A = [4, 1, 2, 3]
+   第三次翻转后 (k=4): A = [3, 2, 1, 4]
+   第四次翻转后 (k=3): A = [1, 2, 3, 4]，此时已完成排序。 
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[1,2,3]
+   <strong>输出：</strong>[]
+   <strong>解释：
+   </strong>输入已经排序，因此不需要翻转任何内容。
+   请注意，其他可能的答案，如[3，3]，也将被接受。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= A.length &lt;= 100</code></li>
+    <li><code>A[i]</code> 是&nbsp;<code>[1, 2, ..., A.length]</code>&nbsp;的排列</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+排序
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> pancakeSort(vector<int>& A) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

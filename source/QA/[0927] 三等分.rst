@@ -1,0 +1,275 @@
+[0927] 三等分
+=============
+
+-  https://leetcode-cn.com/problems/three-equal-parts
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个由 0 和 1 组成的数组 A，将数组分成
+3 个非空的部分，使得所有这些部分表示相同的二进制值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果可以做到，请返回任何 [i, j]，其中 i+1 < j，这样一来：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>A[0], A[1], ..., A[i]</code>&nbsp;组成第一部分；</li>
+    <li><code>A[i+1], A[i+2], ..., A[j-1]</code>&nbsp;作为第二部分；</li>
+    <li><code>A[j], A[j+1], ..., A[A.length - 1]</code> 是第三部分。</li>
+    <li>这三个部分所表示的二进制值相等。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+如果无法做到，就返回 [-1, -1]。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意，在考虑每个部分所表示的二进制时，应当将其看作一个整体。例如，[1,1,0] 表示十进制中的 6，而不会是 3。此外，前导零也是被允许的，所以 [0,1,1]
+和 [1,1] 表示相同的值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[1,0,1,0,1]
+   <strong>输出：</strong>[0,3]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输出：</strong>[1,1,0,1,1]
+   <strong>输出：</strong>[-1,-1]</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>3 &lt;= A.length &lt;= 30000</code></li>
+    <li><code>A[i] == 0</code>&nbsp;或&nbsp;<code>A[i] == 1</code></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+贪心算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> threeEqualParts(vector<int>& A) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

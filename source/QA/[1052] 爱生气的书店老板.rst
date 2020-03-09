@@ -1,0 +1,220 @@
+[1052] 爱生气的书店老板
+=======================
+
+-  https://leetcode-cn.com/problems/grumpy-bookstore-owner
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+今天，书店老板有一家店打算试营业 customers.length 分钟。每分钟都有一些顾客（customers[i]）会进入书店，所有这些顾客都会在那一分钟结束后离开。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+在某些时候，书店老板会生气。 如果书店老板在第 i 分钟生气，那么 grumpy[i]
+= 1，否则 grumpy[i] = 0。
+当书店老板生气时，那一分钟的顾客就会不满意，不生气则他们是满意的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+书店老板知道一个秘密技巧，能抑制自己的情绪，可以让自己连续 X
+分钟不生气，但却只能使用一次。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+请你返回这一天营业下来，最多有多少客户能够感到满意的数量。  
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>customers = [1,0,1,2,1,1,7,5], grumpy = [0,1,0,1,0,1,0,1], X = 3
+   <strong>输出：</strong>16
+   <strong>解释：
+   </strong>书店老板在最后 3 分钟保持冷静。
+   感到满意的最大客户数量 = 1 + 1 + 1 + 1 + 7 + 5 = 16.
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= X &lt;=&nbsp;customers.length ==&nbsp;grumpy.length &lt;= 20000</code></li>
+    <li><code>0 &lt;=&nbsp;customers[i] &lt;= 1000</code></li>
+    <li><code>0 &lt;=&nbsp;grumpy[i] &lt;= 1</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+Sliding Window
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int X) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

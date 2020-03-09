@@ -1,0 +1,129 @@
+[0821] 字符的最短距离
+=====================
+
+-  https://leetcode-cn.com/problems/shortest-distance-to-a-character
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个字符串 S 和一个字符 C。返回一个代表字符串 S 中每个字符到字符串 S 中的字符 C 的最短距离的数组。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> S = &quot;loveleetcode&quot;, C = &#39;e&#39;
+   <strong>输出:</strong> [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>字符串&nbsp;<code>S</code>&nbsp;的长度范围为&nbsp;<code>[1, 10000]</code>。</li>
+    <li><code>C</code>&nbsp;是一个单字符，且保证是字符串&nbsp;<code>S</code>&nbsp;里的字符。</li>
+    <li><code>S</code>&nbsp;和&nbsp;<code>C</code>&nbsp;中的所有字母均为小写字母。</li>
+
+.. raw:: html
+
+   </ol>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> shortestToChar(string S, char C) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

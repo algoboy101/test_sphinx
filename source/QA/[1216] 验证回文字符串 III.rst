@@ -1,0 +1,207 @@
+[1216] 验证回文字符串 III
+=========================
+
+-  https://leetcode-cn.com/problems/valid-palindrome-iii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给出一个字符串 s 和一个整数 k，请你帮忙判断这个字符串是不是一个「K
+回文」。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+所谓「K 回文」：如果可以通过从字符串中删去最多 k
+个字符将其转换为回文，那么这个字符串就是一个「K 回文」。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>s = &quot;abcdeca&quot;, k = 2
+   <strong>输</strong><strong>出：</strong>true
+   <strong>解释：</strong>删除字符 &ldquo;b&rdquo; 和 &ldquo;e&rdquo;。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= s.length &lt;= 1000</code></li>
+    <li><code>s</code>&nbsp;中只含有小写英文字母</li>
+    <li><code>1 &lt;= k&nbsp;&lt;= s.length</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool isValidPalindrome(string s, int k) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

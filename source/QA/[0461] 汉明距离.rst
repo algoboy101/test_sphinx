@@ -1,0 +1,169 @@
+[0461] 汉明距离
+===============
+
+-  https://leetcode-cn.com/problems/hamming-distance
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+两个整数之间的汉明距离指的是这两个数字对应二进制位不同的位置的数目。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给出两个整数 x 和 y，计算它们之间的汉明距离。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意： 0 ≤ x, y < 231.
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> x = 1, y = 4
+
+   <strong>输出:</strong> 2
+
+   <strong>解释:</strong>
+   1   (0 0 0 1)
+   4   (0 1 0 0)
+          &uarr;   &uarr;
+
+   上面的箭头指出了对应二进制位不同的位置。
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+位运算
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int hammingDistance(int x, int y) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

@@ -1,0 +1,215 @@
+[0547] 朋友圈
+=============
+
+-  https://leetcode-cn.com/problems/friend-circles
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+班上有 N 名学生。其中有些人是朋友，有些则不是。他们的友谊具有是传递性。如果已知
+A 是 B 的朋友，B 是 C 的朋友，那么我们可以认为 A 也是
+C 的朋友。所谓的朋友圈，是指所有朋友的集合。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给定一个 N \* N 的矩阵 M，表示班级中学生之间的朋友关系。如果M[i][j] =
+1，表示已知第 i 个和 j
+个学生互为朋友关系，否则为不知道。你必须输出所有学生中的已知的朋友圈总数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> 
+   [[1,1,0],
+    [1,1,0],
+    [0,0,1]]
+   <strong>输出:</strong> 2 
+   <strong>说明：</strong>已知学生0和学生1互为朋友，他们在一个朋友圈。
+   第2个学生自己在一个朋友圈。所以返回2。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> 
+   [[1,1,0],
+    [1,1,1],
+    [0,1,1]]
+   <strong>输出:</strong> 1
+   <strong>说明：</strong>已知学生0和学生1互为朋友，学生1和学生2互为朋友，所以学生0和学生2也是朋友，所以他们三个在一个朋友圈，返回1。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>N 在[1,200]的范围内。</li>
+    <li>对于所有学生，有M[i][i] = 1。</li>
+    <li>如果有M[i][j] = 1，则有M[j][i] = 1。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+并查集
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findCircleNum(vector<vector<int>>& M) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

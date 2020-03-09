@@ -1,0 +1,242 @@
+[1168] 水资源分配优化
+=====================
+
+-  https://leetcode-cn.com/problems/optimize-water-distribution-in-a-village
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+村里面一共有 n 栋房子。我们希望通过建造水井和铺设管道来为所有房子供水。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对于每个房子 i，我们有两种可选的供水方案：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>一种是直接在房子内建造水井，成本为&nbsp;<code>wells[i]</code>；</li>
+    <li>另一种是从另一口井铺设管道引水，数组&nbsp;<code>pipes</code>&nbsp;给出了在房子间铺设管道的成本，其中每个&nbsp;<code>pipes[i] = [house1, house2, cost]</code>&nbsp;代表用管道将&nbsp;<code>house1</code>&nbsp;和&nbsp;<code>house2</code>&nbsp;连接在一起的成本。当然，连接是双向的。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+请你帮忙计算为所有房子都供水的最低总成本。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>n = 3, wells = [1,2,2], pipes = [[1,2,1],[2,3,1]]
+   <strong>输出：</strong>3
+   <strong>解释： </strong>
+   上图展示了铺设管道连接房屋的成本。
+   最好的策略是在第一个房子里建造水井（成本为 1），然后将其他房子铺设管道连起来（成本为 2），所以总成本为 3。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= n&nbsp;&lt;= 10000</code></li>
+    <li><code>wells.length == n</code></li>
+    <li><code>0 &lt;= wells[i] &lt;= 10^5</code></li>
+    <li><code>1 &lt;= pipes.length &lt;= 10000</code></li>
+    <li><code>1 &lt;= pipes[i][0], pipes[i][1] &lt;= n</code></li>
+    <li><code>0 &lt;= pipes[i][2] &lt;= 10^5</code></li>
+    <li><code>pipes[i][0] != pipes[i][1]</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+并查集
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+图
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minCostToSupplyWater(int n, vector<int>& wells, vector<vector<int>>& pipes) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

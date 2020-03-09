@@ -1,0 +1,230 @@
+[0308] 二维区域和检索 - 可变
+============================
+
+-  https://leetcode-cn.com/problems/range-sum-query-2d-mutable
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给你一个 2D 矩阵 matrix，请计算出从左上角 (row1, col1) 到右下角 (row2,
+col2) 组成的矩形中所有元素的和。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 上述粉色矩形框内的，该矩形由左上角 (row1, col1) = (2,
+1) 和右下角 (row2, col2) = (4, 3) 确定。其中，所包括的元素总和 sum = 8。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>给定 matrix = [
+     [3, 0, 1, 4, 2],
+     [5, 6, 3, 2, 1],
+     [1, 2, 0, 1, 5],
+     [4, 1, 0, 1, 7],
+     [1, 0, 3, 0, 5]
+   ]
+
+   sumRegion(2, 1, 4, 3) -&gt; 8
+   update(3, 2, 2)
+   sumRegion(2, 1, 4, 3) -&gt; 10
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>矩阵 <em>matrix&nbsp;</em>的值只能通过&nbsp;<em>update&nbsp;</em>函数来进行修改</li>
+    <li>你可以默认&nbsp;<em>update&nbsp;</em>函数和&nbsp;<em>sumRegion </em>函数的调用次数是均匀分布的</li>
+    <li>你可以默认&nbsp;<em>row</em>1 &le; <em>row</em>2，<em>col</em>1 &le; <em>col2</em></li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树状数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+线段树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class NumMatrix {
+    public:
+        NumMatrix(vector<vector<int>>& matrix) {
+
+        }
+        
+        void update(int row, int col, int val) {
+
+        }
+        
+        int sumRegion(int row1, int col1, int row2, int col2) {
+
+        }
+    };
+
+    /**
+     * Your NumMatrix object will be instantiated and called as such:
+     * NumMatrix* obj = new NumMatrix(matrix);
+     * obj->update(row,col,val);
+     * int param_2 = obj->sumRegion(row1,col1,row2,col2);
+     */
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

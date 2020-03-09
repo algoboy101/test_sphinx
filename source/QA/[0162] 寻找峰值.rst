@@ -1,0 +1,219 @@
+[0162] 寻找峰值
+===============
+
+-  https://leetcode-cn.com/problems/find-peak-element
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+峰值元素是指其值大于左右相邻值的元素。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+给定一个输入数组 nums，其中 nums[i] ≠
+nums[i+1]，找到峰值元素并返回其索引。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+数组可能包含多个峰值，在这种情况下，返回任何一个峰值所在位置即可。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你可以假设 nums[-1] = nums[n] = -∞。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <strong>nums</strong> = <code>[1,2,3,1]</code>
+   <strong>输出:</strong> 2
+   <strong>解释: </strong>3 是峰值元素，你的函数应该返回其索引 2。</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入:</strong> <strong>nums</strong> = <code>[</code>1,2,1,3,5,6,4]
+   <strong>输出:</strong> 1 或 5 
+   <strong>解释:</strong> 你的函数可以返回索引 1，其峰值元素为 2；
+   &nbsp;    或者返回索引 5， 其峰值元素为 6。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+你的解法应该是 O(logN) 时间复杂度的。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+二分查找
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int findPeakElement(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

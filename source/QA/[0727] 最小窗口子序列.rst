@@ -1,0 +1,209 @@
+[0727] 最小窗口子序列
+=====================
+
+-  https://leetcode-cn.com/problems/minimum-window-subsequence
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定字符串 S and T，找出 S 中最短的（连续）子串 W ，使得 T 是 W 的
+子序列 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果 S 中没有窗口可以包含 T 中的所有字符，返回空字符串
+""。如果有不止一个最短长度的窗口，返回开始位置最靠左的那个。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>
+   S = &quot;abcdebdde&quot;, T = &quot;bde&quot;
+   <strong>输出：</strong>&quot;bcde&quot;
+   <strong>解释：</strong>
+   &quot;bcde&quot; 是答案，因为它在相同长度的字符串 &quot;bdde&quot; 出现之前。
+   &quot;deb&quot; 不是一个更短的答案，因为在窗口中必须按顺序出现 T 中的元素。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>所有输入的字符串都只包含小写字母。All the strings in the input will only contain lowercase letters.</li>
+    <li><code>S</code>&nbsp;长度的范围为&nbsp;<code>[1, 20000]</code>。</li>
+    <li><code>T</code>&nbsp;长度的范围为&nbsp;<code>[1, 100]</code>。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+Sliding Window
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string minWindow(string S, string T) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

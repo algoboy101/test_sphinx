@@ -1,0 +1,286 @@
+[0987] 二叉树的垂序遍历
+=======================
+
+-  https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定二叉树，按垂序遍历返回其结点值。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+对位于 (X, Y) 的每个结点而言，其左右子结点分别位于 (X-1, Y-1) 和 (X+1,
+Y-1)。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+把一条垂线从 X = -infinity 移动到 X =
++infinity ，每当该垂线与结点接触时，我们按从上到下的顺序报告结点的值（
+Y 坐标递减）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果两个结点位置相同，则首先报告的结点值较小。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+按 X 坐标顺序返回非空报告的列表。每个报告都有一个结点值列表。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[3,9,20,null,null,15,7]
+   <strong>输出：</strong>[[9],[3,15],[20],[7]]
+   <strong>解释： </strong>
+   在不丧失其普遍性的情况下，我们可以假设根结点位于 (0, 0)：
+   然后，值为 9 的结点出现在 (-1, -1)；
+   值为 3 和 15 的两个结点分别出现在 (0, 0) 和 (0, -2)；
+   值为 20 的结点出现在 (1, -1)；
+   值为 7 的结点出现在 (2, -2)。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[1,2,3,4,5,6,7]
+   <strong>输出：</strong>[[4],[2],[1,5,6],[3],[7]]
+   <strong>解释：</strong>
+   根据给定的方案，值为 5 和 6 的两个结点出现在同一位置。
+   然而，在报告 &quot;[1,5,6]&quot; 中，结点值 5 排在前面，因为 5 小于 6。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>树的结点数介于 <code>1</code>&nbsp;和&nbsp;<code>1000</code>&nbsp;之间。</li>
+    <li>每个结点值介于&nbsp;<code>0</code>&nbsp;和&nbsp;<code>1000</code>&nbsp;之间。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        vector<vector<int>> verticalTraversal(TreeNode* root) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

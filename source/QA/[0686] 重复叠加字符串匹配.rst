@@ -1,0 +1,167 @@
+[0686] 重复叠加字符串匹配
+=========================
+
+-  https://leetcode-cn.com/problems/repeated-string-match
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定两个字符串 A 和 B,
+寻找重复叠加字符串A的最小次数，使得字符串B成为叠加后的字符串A的子串，如果不存在则返回
+-1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+举个例子，A = "abcd"，B = "cdabcdab"。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+答案为 3， 因为 A 重复叠加三遍后为 “abcdabcdabcd”，此时 B 是其子串；A
+重复叠加两遍后为"abcdabcd"，B 并不是其子串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ A 与 B 字符串的长度在1和10000区间范围内。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int repeatedStringMatch(string A, string B) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

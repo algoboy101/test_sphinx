@@ -1,0 +1,220 @@
+[0411] 最短特异单词缩写
+=======================
+
+-  https://leetcode-cn.com/problems/minimum-unique-word-abbreviation
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+字符串 "word" 包含以下这些缩写形式：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[&quot;word&quot;, &quot;1ord&quot;, &quot;w1rd&quot;, &quot;wo1d&quot;, &quot;wor1&quot;, &quot;2rd&quot;, &quot;w2d&quot;, &quot;wo2&quot;, &quot;1o1d&quot;, &quot;1or1&quot;, &quot;w1r1&quot;, &quot;1o2&quot;, &quot;2r1&quot;, &quot;3d&quot;, &quot;w3&quot;, &quot;4&quot;]</pre>
+
+.. raw:: html
+
+   <p>
+
+给一个目标字符串和一个字符串字典，为目标字符串找一个 最短
+长度的缩写字符串，同时这个缩写字符串不是字典中其他字符串的缩写形式。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+缩写形式中每一个 数字 或者字母都被视为长度为 1 。比方说，缩写形式
+"a32bc" 的长度为 4 而不是 5 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>如果像第二个示例一样有多个有效答案，你可以返回它们中的任意一个。</li>
+    <li>假设目标字符串的长度为&nbsp;<strong>m </strong>，字典中的字符串数目为&nbsp;<strong>n</strong>&nbsp;。你可以假设&nbsp;<strong>m &le; 21</strong>，&nbsp;<strong>n &le; 1000</strong>，&nbsp;且&nbsp;<strong>log<sub>2</sub>(n) + m &le; 20</strong>.</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>&quot;apple&quot;, [&quot;blade&quot;] -&gt; &quot;a4&quot; (因为 &quot;5&quot; 或者 &quot;4e&quot; 同时也是 &quot;blade&quot; 的缩写形式，所以它们是无效的缩写)
+
+   &quot;apple&quot;, [&quot;plain&quot;, &quot;amber&quot;, &quot;blade&quot;] -&gt; &quot;1p3&quot; (其他有效的缩写形式还包括 &quot;ap3&quot;, &quot;a3e&quot;, &quot;2p2&quot;, &quot;3le&quot;, &quot;3l1&quot;)。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+位运算
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+回溯算法
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string minAbbreviation(string target, vector<string>& dictionary) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

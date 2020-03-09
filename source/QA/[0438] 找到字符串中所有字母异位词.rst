@@ -1,0 +1,206 @@
+[0438] 找到字符串中所有字母异位词
+=================================
+
+-  https://leetcode-cn.com/problems/find-all-anagrams-in-a-string
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个字符串 s 和一个非空字符串 p，找到 s 中所有是 p 的字母异位词的子串，返回这些子串的起始索引。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+字符串只包含小写英文字母，并且字符串 s 和 p 的长度都不超过 20100。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+说明：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>字母异位词指字母相同，但排列不同的字符串。</li>
+    <li>不考虑答案输出的顺序。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   s: &quot;cbaebabacd&quot; p: &quot;abc&quot;
+
+   <strong>输出:</strong>
+   [0, 6]
+
+   <strong>解释:</strong>
+   起始索引等于 0 的子串是 &quot;cba&quot;, 它是 &quot;abc&quot; 的字母异位词。
+   起始索引等于 6 的子串是 &quot;bac&quot;, 它是 &quot;abc&quot; 的字母异位词。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong>
+   s: &quot;abab&quot; p: &quot;ab&quot;
+
+   <strong>输出:</strong>
+   [0, 1, 2]
+
+   <strong>解释:</strong>
+   起始索引等于 0 的子串是 &quot;ab&quot;, 它是 &quot;ab&quot; 的字母异位词。
+   起始索引等于 1 的子串是 &quot;ba&quot;, 它是 &quot;ab&quot; 的字母异位词。
+   起始索引等于 2 的子串是 &quot;ab&quot;, 它是 &quot;ab&quot; 的字母异位词。
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+哈希表
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        vector<int> findAnagrams(string s, string p) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

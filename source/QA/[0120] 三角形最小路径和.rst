@@ -1,0 +1,185 @@
+[0120] 三角形最小路径和
+=======================
+
+-  https://leetcode-cn.com/problems/triangle
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+例如，给定三角形：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[
+        [<strong>2</strong>],
+       [<strong>3</strong>,4],
+      [6,<strong>5</strong>,7],
+     [4,<strong>1</strong>,8,3]
+   ]
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+自顶向下的最小路径和为 11（即，2 + 3 + 5 + 1 = 11）。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+说明：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+如果你可以只使用 O(n) 的额外空间（n
+为三角形的总行数）来解决这个问题，那么你的算法会很加分。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数组
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int minimumTotal(vector<vector<int>>& triangle) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

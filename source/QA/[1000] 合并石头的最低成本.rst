@@ -1,0 +1,248 @@
+[1000] 合并石头的最低成本
+=========================
+
+-  https://leetcode-cn.com/problems/minimum-cost-to-merge-stones
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+有 N 堆石头排成一排，第 i 堆中有 stones[i] 块石头。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每次移动（move）需要将连续的 K 堆石头合并为一堆，而这个移动的成本为这 K 堆石头的总数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+找出把所有石头合并成一堆的最低成本。如果不可能，返回 -1 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>stones = [3,2,4,1], K = 2
+   <strong>输出：</strong>20
+   <strong>解释：</strong>
+   从 [3, 2, 4, 1] 开始。
+   合并 [3, 2]，成本为 5，剩下 [5, 4, 1]。
+   合并 [4, 1]，成本为 5，剩下 [5, 5]。
+   合并 [5, 5]，成本为 10，剩下 [10]。
+   总成本 20，这是可能的最小值。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>stones = [3,2,4,1], K = 3
+   <strong>输出：</strong>-1
+   <strong>解释：</strong>任何合并操作后，都会剩下 2 堆，我们无法再进行合并。所以这项任务是不可能完成的。.
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>stones = [3,5,1,2,6], K = 3
+   <strong>输出：</strong>25
+   <strong>解释：</strong>
+   从 [3, 5, 1, 2, 6] 开始。
+   合并 [5, 1, 2]，成本为 8，剩下 [3, 8, 6]。
+   合并 [3, 8, 6]，成本为 17，剩下 [17]。
+   总成本 25，这是可能的最小值。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>1 &lt;= stones.length &lt;= 30</code></li>
+    <li><code>2 &lt;= K &lt;= 30</code></li>
+    <li><code>1 &lt;= stones[i] &lt;= 100</code></li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+动态规划
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int mergeStones(vector<int>& stones, int K) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

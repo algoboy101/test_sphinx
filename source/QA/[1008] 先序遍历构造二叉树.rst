@@ -1,0 +1,207 @@
+[1008] 先序遍历构造二叉树
+=========================
+
+-  https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+返回与给定先序遍历 preorder 相匹配的二叉搜索树（binary search
+tree）的根结点。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+(回想一下，二叉搜索树是二叉树的一种，其每个节点都满足以下规则，对于 node.left 的任何后代，值总
+< node.val，而 node.right 的任何后代，值总 >
+node.val。此外，先序遍历首先显示节点的值，然后遍历 node.left，接着遍历
+node.right。）
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[8,5,1,7,10,12]
+   <strong>输出：</strong>[8,5,10,1,7,null,12]
+   <img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/1266.png" style="height: 200px; width: 306px;">
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= preorder.length &lt;= 100</code></li>
+    <li>先序&nbsp;<code>preorder</code>&nbsp;中的值是不同的。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        TreeNode* bstFromPreorder(vector<int>& preorder) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

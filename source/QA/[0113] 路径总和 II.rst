@@ -1,0 +1,192 @@
+[0113] 路径总和 II
+==================
+
+-  https://leetcode-cn.com/problems/path-sum-ii
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个二叉树和一个目标和，找到所有从根节点到叶子节点路径总和等于给定目标和的路径。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+说明: 叶子节点是指没有子节点的节点。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例: 给定如下二叉树，以及目标和 sum = 22，
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>              <strong>5</strong>
+                / \
+               <strong>4</strong>   <strong>8</strong>
+              /   / \
+             <strong>11</strong>  13  <strong>4</strong>
+            /  \    / \
+           7    <strong>2</strong>  <strong>5</strong>   1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+返回:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>[
+      [5,4,11,2],
+      [5,8,4,5]
+   ]
+   </pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+树
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+深度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    /**
+     * Definition for a binary tree node.
+     * struct TreeNode {
+     *     int val;
+     *     TreeNode *left;
+     *     TreeNode *right;
+     *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+     * };
+     */
+    class Solution {
+    public:
+        vector<vector<int>> pathSum(TreeNode* root, int sum) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

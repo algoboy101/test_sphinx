@@ -1,0 +1,189 @@
+[0284] 顶端迭代器
+=================
+
+-  https://leetcode-cn.com/problems/peeking-iterator
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个迭代器类的接口，接口包含两个方法： next() 和 hasNext()。设计并实现一个支持 peek() 操作的顶端迭代器
+-- 其本质就是把原本应由 next() 方法返回的元素 peek() 出来。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>假设迭代器被初始化为列表&nbsp;<strong><code>[1,2,3]</code></strong>。
+
+   调用&nbsp;<strong><code>next() </code></strong>返回 <strong>1</strong>，得到列表中的第一个元素。
+   现在调用&nbsp;<strong><code>peek()</code></strong>&nbsp;返回 <strong>2</strong>，下一个元素。在此之后调用&nbsp;<strong><code>next() </code></strong>仍然返回 <strong>2</strong>。
+   最后一次调用&nbsp;<strong><code>next()</code></strong>&nbsp;返回 <strong>3</strong>，末尾元素。在此之后调用&nbsp;<strong><code>hasNext()</code></strong>&nbsp;应该返回 <strong>false</strong>。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+进阶：你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+设计
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    // Below is the interface for Iterator, which is already defined for you.
+    // **DO NOT** modify the interface for Iterator.
+
+    class Iterator {
+        struct Data;
+        Data* data;
+    public:
+        Iterator(const vector<int>& nums);
+        Iterator(const Iterator& iter);
+        virtual ~Iterator();
+        // Returns the next element in the iteration.
+        int next();
+        // Returns true if the iteration has more elements.
+        bool hasNext() const;
+    };
+
+
+    class PeekingIterator : public Iterator {
+    public:
+        PeekingIterator(const vector<int>& nums) : Iterator(nums) {
+            // Initialize any member here.
+            // **DO NOT** save a copy of nums and manipulate it directly.
+            // You should only use the Iterator interface methods.
+            
+        }
+
+        // Returns the next element in the iteration without advancing the iterator.
+        int peek() {
+            
+        }
+
+        // hasNext() and next() should behave the same as in the Iterator interface.
+        // Override them if needed.
+        int next() {
+            
+        }
+
+        bool hasNext() const {
+            
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

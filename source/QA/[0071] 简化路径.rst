@@ -1,0 +1,268 @@
+[0071] 简化路径
+===============
+
+-  https://leetcode-cn.com/problems/simplify-path
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+以 Unix
+风格给出一个文件的绝对路径，你需要简化它。或者换句话说，将其转换为规范路径。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+在 Unix 风格的文件系统中，一个点（.）表示当前目录本身；此外，两个点
+（..） 表示将目录切换到上一级（指向父目录）；两者都可以是复杂相对路径的组成部分。更多信息请参阅：Linux
+/ Unix中的绝对路径 vs 相对路径
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+请注意，返回的规范路径必须始终以斜杠 /
+开头，并且两个目录名之间必须只有一个斜杠
+/。最后一个目录名（如果存在）不能以 /
+结尾。此外，规范路径必须是表示绝对路径的最短字符串。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/home/&quot;
+   <strong>输出：&quot;</strong>/home&quot;
+   <strong>解释：</strong>注意，最后一个目录名后面没有斜杠。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/../&quot;
+   <strong>输出：&quot;</strong>/&quot;
+   <strong>解释：</strong>从根目录向上一级是不可行的，因为根是你可以到达的最高级。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/home//foo/&quot;
+   <strong>输出：&quot;</strong>/home/foo&quot;
+   <strong>解释：</strong>在规范路径中，多个连续斜杠需要用一个斜杠替换。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 4：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/a/./b/../../c/&quot;
+   <strong>输出：&quot;</strong>/c&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 5：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/a/../../b/../c//.//&quot;
+   <strong>输出：&quot;</strong>/c&quot;
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 6：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：&quot;</strong>/a//b////c/d//././/..&quot;
+   <strong>输出：&quot;</strong>/a/b/c&quot;</pre>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+栈
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   <li>
+
+字符串
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        string simplifyPath(string path) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

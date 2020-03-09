@@ -1,0 +1,244 @@
+[0857] 雇佣 K 名工人的最低成本
+==============================
+
+-  https://leetcode-cn.com/problems/minimum-cost-to-hire-k-workers
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+有
+N 名工人。 第 i 名工人的工作质量为 quality[i] ，其最低期望工资为 wage[i] 。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+现在我们想雇佣 K 名工人组成一个工资组。在雇佣 一组 K
+名工人时，我们必须按照下述规则向他们支付工资：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li>对工资组中的每名工人，应当按其工作质量与同组其他工人的工作质量的比例来支付工资。</li>
+    <li>工资组中的每名工人至少应当得到他们的最低期望工资。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+返回组成一个满足上述条件的工资组至少需要多少钱。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入： </strong>quality = [10,20,5], wage = [70,50,30], K = 2
+   <strong>输出： </strong>105.00000
+   <strong>解释：</strong> 我们向 0 号工人支付 70，向 2 号工人支付 35。</pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入： </strong>quality = [3,1,10,10,1], wage = [4,8,2,2,7], K = 3
+   <strong>输出： </strong>30.66667
+   <strong>解释： </strong>我们向 0 号工人支付 4，向 2 号和 3 号分别支付 13.33333。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= K &lt;= N &lt;= 10000</code>，其中&nbsp;<code>N = quality.length = wage.length</code></li>
+    <li><code>1 &lt;= quality[i] &lt;= 10000</code></li>
+    <li><code>1 &lt;= wage[i] &lt;= 10000</code></li>
+    <li>与正确答案误差在&nbsp;<code>10^-5</code>&nbsp;之内的答案将被视为正确的。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+堆
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int K) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

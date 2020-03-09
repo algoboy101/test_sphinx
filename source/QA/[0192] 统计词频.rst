@@ -1,0 +1,172 @@
+[0192] 统计词频
+===============
+
+-  https://leetcode-cn.com/problems/word-frequency
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+写一个 bash 脚本以统计一个文本文件 words.txt 中每个单词出现的频率。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+为了简单起见，你可以假设：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>words.txt</code>只包括小写字母和&nbsp;<code>&#39; &#39;</code>&nbsp;。</li>
+    <li>每个单词只由小写字母组成。</li>
+    <li>单词间由一个或多个空格字符分隔。</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+示例:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+假设 words.txt 内容如下：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>the day is sunny the the
+   the sunny is is
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+你的脚本应当输出（以词频降序排列）：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>the 4
+   is 3
+   sunny 2
+   day 1
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+说明:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>不要担心词频相同的单词的排序问题，每个单词出现的频率都是唯一的。</li>
+    <li>你可以使用一行&nbsp;<a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-4.html">Unix pipes</a>&nbsp;实现吗？</li>
+
+.. raw:: html
+
+   </ul>
+
+题目代码
+--------
+
+.. code:: cpp
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

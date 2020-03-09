@@ -1,0 +1,269 @@
+[0909] 蛇梯棋
+=============
+
+-  https://leetcode-cn.com/problems/snakes-and-ladders
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+在一块 N x N 的棋盘 board 上，从棋盘的左下角开始，每一行交替方向，按从 1
+到 N\*N 的数字给方格编号。例如，对于一块 6 x 6
+大小的棋盘，可以编号如下：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><img alt="" src="https://raw.githubusercontent.com/algoboy101/LeetCodeCrowdsource/master/imgs/snakes.png" style="height: 200px; width: 254px;">
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+玩家从棋盘上的方格 1 （总是在最后一行、第一列）开始出发。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+每一次从方格 x 起始的移动都由以下部分组成：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li>你选择一个目标方块 <code>S</code>，它的编号是 <code>x+1</code>，<code>x+2</code>，<code>x+3</code>，<code>x+4</code>，<code>x+5</code>，或者 <code>x+6</code>，只要这个数字&nbsp;<code>&lt;= N*N</code>。</li>
+    <li>如果 <code>S</code> 有一个蛇或梯子，你就移动到那个蛇或梯子的目的地。否则，你会移动到 <code>S</code>。&nbsp;</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+在 r 行 c 列上的方格里有 “蛇” 或 “梯子”；如果 board[r][c] !=
+-1，那个蛇或梯子的目的地将会是 board[r][c]。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+注意，你每次移动最多只能爬过蛇或梯子一次：就算目的地是另一条蛇或梯子的起点，你也不会继续移动。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+返回达到方格 N\*N 所需的最少移动次数，如果不可能，则返回 -1。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>[
+   [-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1],
+   [-1,-1,-1,-1,-1,-1],
+   [-1,35,-1,-1,13,-1],
+   [-1,-1,-1,-1,-1,-1],
+   [-1,15,-1,-1,-1,-1]]
+   <strong>输出：</strong>4
+   <strong>解释：</strong>
+   首先，从方格 1 [第 5 行，第 0 列] 开始。
+   你决定移动到方格 2，并必须爬过梯子移动到到方格 15。
+   然后你决定移动到方格 17 [第 3 行，第 5 列]，必须爬过蛇到方格 13。
+   然后你决定移动到方格 14，且必须通过梯子移动到方格 35。
+   然后你决定移动到方格 36, 游戏结束。
+   可以证明你需要至少 4 次移动才能到达第 N*N 个方格，所以答案是 4。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>2 &lt;= board.length = board[0].length&nbsp;&lt;= 20</code></li>
+    <li><code>board[i][j]</code>&nbsp;介于&nbsp;<code>1</code>&nbsp;和&nbsp;<code>N*N</code>&nbsp;之间或者等于&nbsp;<code>-1</code>。</li>
+    <li>编号为&nbsp;<code>1</code>&nbsp;的方格上没有蛇或梯子。</li>
+    <li>编号为&nbsp;<code>N*N</code>&nbsp;的方格上没有蛇或梯子。</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+广度优先搜索
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int snakesAndLadders(vector<vector<int>>& board) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

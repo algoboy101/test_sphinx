@@ -1,0 +1,132 @@
+[0540] 有序数组中的单一元素
+===========================
+
+-  https://leetcode-cn.com/problems/single-element-in-a-sorted-array
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+给定一个只包含整数的有序数组，每个元素都会出现两次，唯有一个数只会出现一次，找出这个数。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> [1,1,2,3,3,4,4,8,8]
+   <strong>输出:</strong> 2
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2:
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre>
+   <strong>输入:</strong> [3,3,7,7,10,11,11]
+   <strong>输出:</strong> 10
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+注意: 您的方案应该在 O(log n)时间复杂度和 O(1)空间复杂度中运行。
+
+.. raw:: html
+
+   </p>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        int singleNonDuplicate(vector<int>& nums) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //

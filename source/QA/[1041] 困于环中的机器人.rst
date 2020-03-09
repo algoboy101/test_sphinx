@@ -1,0 +1,257 @@
+[1041] 困于环中的机器人
+=======================
+
+-  https://leetcode-cn.com/problems/robot-bounded-in-circle
+
+题目描述
+--------
+
+.. raw:: html
+
+   <p>
+
+在无限的平面上，机器人最初位于 (0,
+0) 处，面朝北方。机器人可以接受下列三条指令之一：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ul>
+
+::
+
+    <li><code>&quot;G&quot;</code>：直走 1 个单位</li>
+    <li><code>&quot;L&quot;</code>：左转 90 度</li>
+    <li><code>&quot;R&quot;</code>：右转 90 度</li>
+
+.. raw:: html
+
+   </ul>
+
+.. raw:: html
+
+   <p>
+
+机器人按顺序执行指令 instructions，并一直重复它们。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+只有在平面中存在环使得机器人永远无法离开时，返回 true。否则，返回
+false。
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+示例 1：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>&quot;GGLLGG&quot;
+   <strong>输出：</strong>true
+   <strong>解释：</strong>
+   机器人从 (0,0) 移动到 (0,2)，转 180 度，然后回到 (0,0)。
+   重复这些指令，机器人将保持在以原点为中心，2 为半径的环中进行移动。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 2：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>&quot;GG&quot;
+   <strong>输出：</strong>false
+   <strong>解释：</strong>
+   机器人无限向北移动。
+   </pre>
+
+.. raw:: html
+
+   <p>
+
+示例 3：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <pre><strong>输入：</strong>&quot;GL&quot;
+   <strong>输出：</strong>true
+   <strong>解释：</strong>
+   机器人按 (0, 0) -&gt; (0, 1) -&gt; (-1, 1) -&gt; (-1, 0) -&gt; (0, 0) -&gt; ... 进行移动。</pre>
+
+.. raw:: html
+
+   <p>
+
+ 
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <p>
+
+提示：
+
+.. raw:: html
+
+   </p>
+
+.. raw:: html
+
+   <ol>
+
+::
+
+    <li><code>1 &lt;= instructions.length &lt;= 100</code></li>
+    <li><code>instructions[i]</code> 在&nbsp;<code>{&#39;G&#39;, &#39;L&#39;, &#39;R&#39;}</code>&nbsp;中</li>
+
+.. raw:: html
+
+   </ol>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <div>
+
+Related Topics
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   <div>
+
+.. raw:: html
+
+   <li>
+
+数学
+
+.. raw:: html
+
+   </li>
+
+.. raw:: html
+
+   </div>
+
+.. raw:: html
+
+   </div>
+
+题目代码
+--------
+
+.. code:: cpp
+
+    class Solution {
+    public:
+        bool isRobotBounded(string instructions) {
+
+        }
+    };
+
+题目解析
+--------
+
+方法一
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
+
+方法二
+~~~~~~
+
+分析
+^^^^
+
+思路
+^^^^
+
+注意
+^^^^
+
+知识点
+^^^^^^
+
+复杂度
+^^^^^^
+
+参考
+^^^^
+
+答案
+^^^^
+
+.. code:: cpp
+
+    //
